@@ -1,42 +1,54 @@
-Siap! Biar temen-temen kamu (atau dosen penguji) bisa jalanin proyek ini di laptop mereka tanpa pusing, ini adalah **Panduan Instalasi (Step-by-Step)** yang bisa kamu kirim langsung ke grup chat atau kamu cetak jadi panduan.
-
-Pastikan mereka sudah menginstall **Node.js**, **Python (versi 3.9+)**, dan **XAMPP/MySQL** ya.
 
 ---
 
-# 🚀 Panduan Menjalankan Proyek Dorokdok Mega Rasa
+# 🚀 Panduan Instalasi & Menjalankan Proyek Dorokdok Mega Rasa
 
-Proyek ini menggunakan arsitektur **Microservices**, jadi kita harus menyalakan **3 Terminal** secara bersamaan. Jangan panik, ikuti saja langkahnya.
+Proyek ini menggunakan arsitektur **Microservices** (Frontend, Backend, dan AI Engine terpisah). Untuk menjalankannya, kamu harus menyalakan **3 Terminal** secara bersamaan. Jangan panik, ikuti saja langkahnya.
 
-### 📌 Persiapan Awal
-1. Buka folder proyek di VS Code.
-2. Buka **XAMPP**, nyalakan **Apache** dan **MySQL**.
-3. ekstrak .zip yang berisi database .sql, lalu  Buka `http://localhost/phpmyadmin`, **Import** file `.sql` yang  diekstrak tadi.
+### 🛠️ Persiapan Awal (Wajib)
+Pastikan laptop kamu sudah terinstall:
+1. **Node.js** (versi 18+)
+2. **Python** (versi 3.9+)
+3. **XAMPP** (untuk MySQL)
 
 ---
 
-### 🟢 TERMINAL 1: Setup Database & Backend (Node.js)
+### 📌 LANGKAH 1: Setup Database (XAMPP)
+*Kita akan menyiapkan database MySQL dari file yang sudah disediakan.*
+
+1. Buka **XAMPP**, lalu nyalakan modul **Apache** dan **MySQL**.
+2. Ekstrak file **`dorokdok_megarasa.zip`** yang ada di folder proyek. Di dalamnya terdapat file **`dorokdok_megarasa.sql`**.
+3. Buka browser, akses `http://localhost/phpmyadmin`.
+4. Klik **"New"** (Baru) di panel kiri, buat database baru dengan nama **`dorokdok_megarasa`**.
+5. Pilih database tersebut, lalu masuk ke tab **"Import"**.
+6. Pilih file **`dorokdok_megarasa.sql`** yang sudah diekstrak tadi, lalu klik **"Import"** (Go).
+7. *Tunggu hingga muncul tulisan hijau "Import has been successfully finished".*
+
+---
+
+### 🟢 TERMINAL 1: Setup Backend API (Node.js)
 *Ini adalah server utama yang mengatur API, Login, dan Database.*
 
 1. Buka Terminal, masuk ke folder backend:
    ```bash
    cd backend
    ```
-2. Install semua library Node.js (cukup sekali):
+2. Install semua library Node.js:
    ```bash
    npm install
+   npm install axios
    ```
-   *(Pastikan library `axios`, `fastapi` dependencies, dll sudah terinstall. Jika belum, jalankan `npm install axios`)*.
-3. Buat file **`.env`** di dalam folder `backend` (jika belum ada), lalu isi:
+3. Buat file **`.env`** di dalam folder `backend` (jika belum ada), lalu isi persis seperti ini:
    ```env
    PORT=5000
    DB_HOST=localhost
    DB_USER=root
    DB_PASS=
-   DB_NAME=dorokdok_db
+   DB_NAME=dorokdok_megarasa
    JWT_SECRET=rahasia_super_aman
    GEMINI_API_KEY=isi_dengan_api_key_gemini_kamu
    ```
+   *(Catatan: Jika XAMPP MySQL kamu pakai password, isi `DB_PASS` sesuai passwordmu. Kalau tidak ada, biarkan kosong).*
 4. Jalankan server Node.js:
    ```bash
    npm run dev
@@ -46,13 +58,13 @@ Proyek ini menggunakan arsitektur **Microservices**, jadi kita harus menyalakan 
 ---
 
 ### 🐍 TERMINAL 2: Setup AI & Data Science Engine (Python/FastAPI)
-*Ini adalah "otak" yang menghitung data transaksi dan bikin grafik.*
+*Ini adalah "otak" yang menghitung data transaksi dan membuat gambar grafik.*
 
 1. Buka Terminal **baru** (jangan tutup Terminal 1), masuk ke folder backend lagi:
    ```bash
    cd backend
    ```
-2. Install library Python yang dibutuhkan (cukup sekali):
+2. Install library Python yang dibutuhkan:
    ```bash
    pip install fastapi uvicorn pandas numpy matplotlib
    ```
@@ -71,7 +83,7 @@ Proyek ini menggunakan arsitektur **Microservices**, jadi kita harus menyalakan 
    ```bash
    cd frontend
    ```
-2. Install library React (cukup sekali):
+2. Install library React:
    ```bash
    npm install
    ```
@@ -85,9 +97,9 @@ Proyek ini menggunakan arsitektur **Microservices**, jadi kita harus menyalakan 
 
 ### 🎯 CARA NGETES (Alur Penggunaan)
 
-Setelah ketiga terminal menyala dan web terbuka:
+Setelah ketiga terminal menyala dan web terbuka di browser:
 
-1. **Login:** Masuk pakai email dan password (misal: `fajar@dorokdok.com` / `password123`).
+1. **Login:** Masuk pakai akun admin (Email: `fajar@dorokdok.com` | Password: `password123`).
 2. **Dashboard:** Kamu akan melihat halaman utama. Klik tombol **"Generate Analisis"** di kotak AI. 
    *(Di balik layar: Node.js mengambil data DB -> Mengirim ke FastAPI Python -> Python bikin JSON & Grafik -> Tampil di layar).*
 3. **Transaksi:** Coba tambah transaksi baru. Pastikan muncul notifikasi hijau "Berhasil".
@@ -98,10 +110,10 @@ Setelah ketiga terminal menyala dan web terbuka:
 
 ---
 
-### ⚠️ TROUBLESHOOTING (Kalau Error)
+### ⚠️ TROUBLESHOOTING (Kalau Ada Error)
 
 *   **Error `Cannot find module 'axios'`**: Berarti kamu belum menjalankan `npm install axios` di folder backend.
-*   **Gagal Login / Database Error**: Cek XAMPP, pastikan MySQL menyala dan nama database di `.env` sudah benar.
+*   **Gagal Login / Database Error**: Cek XAMPP, pastikan MySQL menyala dan nama database di `.env` sudah benar (`dorokdok_megarasa`).
 *   **Tombol Generate Analisis Gagal (Merah)**: Pastikan **Terminal 2 (FastAPI/Python)** sedang menyala. Node.js butuh server Python untuk menghitung data.
 *   **AI Chat Error / Tidak bisa membalas**: Cek `GEMINI_API_KEY` di file `.env`. Pastikan API Key masih aktif dan ada kuotanya.
-*   **Grafik tidak muncul di chat**: Pastikan folder `backend/uploads/charts` ada. Jika belum, buat folder tersebut secara manual.
+*   **Grafik tidak muncul di chat**: Pastikan folder `backend/uploads/charts` ada di dalam folder proyek. Jika belum, buat folder tersebut secara manual.
