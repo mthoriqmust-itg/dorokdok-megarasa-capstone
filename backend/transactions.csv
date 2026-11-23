@@ -1,0 +1,228 @@
+date,type,amount,sales_channel,payment_method,category_name,user_name,role
+2025-12-31,pemasukan,520000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-01-01,pemasukan,1190000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-01-02,pengeluaran,620000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-01-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-01-06,pengeluaran,130000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-01-09,pengeluaran,355000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-01-10,pemasukan,460000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-01-11,pemasukan,235000,media sosial,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-01-11,pengeluaran,70000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-01-13,pengeluaran,135000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-01-16,pengeluaran,500000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-01-17,pemasukan,135000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-01-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-01-21,pemasukan,235000,toko,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-01-21,pemasukan,2025000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-01-24,pemasukan,305000,WhatsApp,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-01-30,pemasukan,355000,media sosial,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-02,pengeluaran,480000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-02-04,pemasukan,95000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-02-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-02-06,pemasukan,240000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-06,pengeluaran,105000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-02-09,pengeluaran,330000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-02-10,pemasukan,165000,toko,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-02-11,pengeluaran,85000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-02-13,pemasukan,350000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-13,pemasukan,270000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-13,pengeluaran,125000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-02-15,pemasukan,1720000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-02-16,pengeluaran,385000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-02-17,pengeluaran,140000,NULL,QRIS,Promosi dan Iklan,Budi Santoso,karyawan
+2026-02-18,pemasukan,160000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-02-25,pemasukan,1815000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-02-28,pemasukan,575000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-02-28,pemasukan,480000,media sosial,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-03-02,pengeluaran,795000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-03-04,pemasukan,3315000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-03-06,pengeluaran,125000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-03-07,pemasukan,145000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-03-09,pengeluaran,355000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-03-11,pemasukan,3870000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-11,pengeluaran,115000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-03-13,pengeluaran,140000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-03-14,pemasukan,2825000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-16,pemasukan,2550000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-16,pengeluaran,640000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-03-17,pemasukan,260000,media sosial,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-03-18,pemasukan,3335000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-19,pemasukan,2660000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-03-19,pemasukan,650000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-03-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-03-23,pemasukan,345000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-03-28,pemasukan,415000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-03-31,pemasukan,95000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-04-02,pengeluaran,800000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-04-04,pemasukan,270000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-04-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-04-06,pengeluaran,135000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-04-09,pengeluaran,365000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-04-11,pengeluaran,75000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-04-13,pemasukan,1440000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-04-13,pengeluaran,160000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-04-16,pemasukan,175000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-04-16,pengeluaran,640000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-04-17,pemasukan,405000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-04-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-04-21,pengeluaran,275000,NULL,tunai,Peralatan dan Perawatan,Budi Santoso,karyawan
+2026-04-23,pemasukan,270000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-04-23,pemasukan,2125000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-04-24,pemasukan,350000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-05-01,pemasukan,390000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-05-02,pengeluaran,500000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-05-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-05-06,pengeluaran,120000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-05-09,pengeluaran,385000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-05-11,pengeluaran,65000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-05-12,pemasukan,1075000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-05-13,pengeluaran,160000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-05-15,pemasukan,1730000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-05-16,pengeluaran,400000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-05-18,pemasukan,185000,WhatsApp,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-05-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-05-22,pemasukan,290000,WhatsApp,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-05-24,pemasukan,220000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-05-24,pemasukan,80000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-05-30,pemasukan,380000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-06-01,pemasukan,205000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-06-02,pengeluaran,540000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-06-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-06-06,pemasukan,70000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-06-06,pengeluaran,110000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-06-07,pemasukan,220000,WhatsApp,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-06-08,pemasukan,955000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-06-09,pemasukan,160000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-06-09,pengeluaran,420000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-06-11,pengeluaran,60000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-06-13,pengeluaran,155000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-06-16,pengeluaran,435000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-06-17,pengeluaran,140000,NULL,QRIS,Promosi dan Iklan,Budi Santoso,karyawan
+2026-06-19,pemasukan,335000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-06-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-06-23,pemasukan,1180000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-06-27,pemasukan,240000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-06-30,pemasukan,370000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-07-02,pengeluaran,425000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-07-04,pemasukan,105000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-07-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-07-06,pengeluaran,30000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-07-09,pengeluaran,395000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-07-11,pemasukan,110000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-07-11,pengeluaran,20000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-07-12,pemasukan,75000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-07-13,pengeluaran,160000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-07-14,pemasukan,90000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-07-16,pemasukan,60000,media sosial,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-07-16,pemasukan,80000,WhatsApp,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-07-16,pengeluaran,340000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-07-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-07-23,pemasukan,45000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-07-23,pemasukan,650000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-07-31,pemasukan,1480000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-08-02,pengeluaran,455000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-08-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-08-06,pengeluaran,75000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-08-08,pemasukan,295000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-08-08,pemasukan,210000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-08-09,pengeluaran,375000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-08-11,pengeluaran,65000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-08-13,pengeluaran,140000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-08-16,pengeluaran,365000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-08-18,pemasukan,180000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-08-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-08-24,pemasukan,70000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-08-25,pemasukan,150000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-08-25,pemasukan,1095000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-08-28,pemasukan,265000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-09-02,pengeluaran,790000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-09-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-09-06,pemasukan,215000,WhatsApp,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-09-06,pengeluaran,80000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-09-08,pemasukan,210000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-09-09,pengeluaran,400000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-09-10,pemasukan,1025000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-09-11,pengeluaran,50000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-09-12,pemasukan,340000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-09-13,pengeluaran,145000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-09-16,pengeluaran,630000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-09-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-09-21,pengeluaran,205000,NULL,tunai,Peralatan dan Perawatan,Budi Santoso,karyawan
+2026-09-25,pemasukan,320000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-09-26,pemasukan,280000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-09-26,pemasukan,1395000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-09-28,pemasukan,100000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-10-02,pemasukan,385000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-10-02,pemasukan,355000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-10-02,pengeluaran,405000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-10-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-10-06,pengeluaran,110000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-10-08,pemasukan,250000,media sosial,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-10-09,pemasukan,1455000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-10-09,pengeluaran,375000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-10-10,pemasukan,295000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-10-11,pengeluaran,55000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-10-13,pengeluaran,125000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-10-16,pemasukan,225000,toko,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-10-16,pengeluaran,325000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-10-17,pengeluaran,130000,NULL,QRIS,Promosi dan Iklan,Budi Santoso,karyawan
+2026-10-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-10-26,pemasukan,1470000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-10-30,pemasukan,90000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-10-31,pemasukan,150000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-10-31,pengeluaran,50000,NULL,tunai,Bahan Baku,Budi Santoso,karyawan
+2026-11-01,pemasukan,75000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-11-01,pengeluaran,300000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-11-02,pengeluaran,25000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-11-03,pemasukan,450000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-11-04,pemasukan,180000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-11-04,pengeluaran,420000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-11-05,pemasukan,225000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-11-06,pemasukan,1250000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-11-06,pengeluaran,85000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-11-07,pemasukan,300000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-11-07,pengeluaran,60000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-11-08,pengeluaran,350000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-11-09,pemasukan,195000,toko,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-11-10,pemasukan,90000,WhatsApp,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-11-11,pengeluaran,750000,NULL,tunai,Bahan Baku,Fajar Gustiana,admin
+2026-11-12,pemasukan,270000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-11-13,pengeluaran,140000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-11-14,pemasukan,2100000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Budi Santoso,karyawan
+2026-11-15,pengeluaran,300000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-11-16,pemasukan,165000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-11-17,pengeluaran,100000,NULL,tunai,Promosi dan Iklan,Budi Santoso,karyawan
+2026-11-18,pengeluaran,480000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-11-19,pemasukan,2000000,NULL,tunai,Modal Tambahan,Fajar Gustiana,admin
+2026-11-20,pemasukan,330000,media sosial,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-11-21,pengeluaran,175000,NULL,tunai,Peralatan dan Perawatan,Siti Indriani,karyawan
+2026-11-22,pemasukan,1500000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Budi Santoso,karyawan
+2026-11-23,pengeluaran,120000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-11-24,pemasukan,105000,toko,tunai,Penjualan Bumbu,Siti Indriani,karyawan
+2026-11-25,pengeluaran,95000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-11-26,pengeluaran,300000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-11-27,pemasukan,420000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-11-28,pemasukan,50000,NULL,tunai,Pendapatan Lain,Siti Indriani,karyawan
+2026-11-28,pengeluaran,45000,NULL,tunai,Pengeluaran Lain,Budi Santoso,karyawan
+2026-11-29,pengeluaran,200000,NULL,tunai,Transportasi,Fajar Gustiana,admin
+2026-11-30,pemasukan,375000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-12-02,pengeluaran,705000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-12-04,pemasukan,390000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-12-04,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-12-06,pengeluaran,165000,NULL,tunai,Kemasan,Budi Santoso,karyawan
+2026-12-09,pengeluaran,355000,NULL,tunai,Listrik dan Air,Fajar Gustiana,admin
+2026-12-11,pengeluaran,140000,NULL,tunai,Transportasi,Budi Santoso,karyawan
+2026-12-13,pengeluaran,140000,NULL,tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan
+2026-12-15,pemasukan,260000,WhatsApp,tunai,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-12-16,pengeluaran,565000,NULL,tunai,Bahan Baku,Siti Indriani,karyawan
+2026-12-19,pengeluaran,600000,NULL,tunai,Gaji Karyawan,Fajar Gustiana,admin
+2026-12-21,pemasukan,175000,toko,tunai,Penjualan Bumbu,Budi Santoso,karyawan
+2026-12-21,pemasukan,2575000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin
+2026-12-23,pemasukan,590000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-12-24,pemasukan,360000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-12-26,pemasukan,585000,toko,tunai,Penjualan Dorokdok,Siti Indriani,karyawan
+2026-12-26,pemasukan,630000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan
+2026-12-27,pemasukan,2150000,reseller/toko oleh-oleh,tunai,Pesanan Grosir,Fajar Gustiana,admin
+2026-12-30,pemasukan,595000,toko,tunai,Penjualan Dorokdok,Budi Santoso,karyawan

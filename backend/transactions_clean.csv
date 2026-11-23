@@ -1,0 +1,202 @@
+date,type,amount,sales_channel,payment_method,category_name,user_name,role,amount_median_grup,amount_robust_z,is_outlier,amount_winsor,tahun,bulan,bulan_str,kuartal,minggu_mulai,dow,nama_hari,is_weekend,tgl_bulan,signed_amount,amount_log,amount_zscore,amount_minmax
+2025-12-31,pemasukan,520000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,2.19,False,520000,2025,12,2025-12,4,2025-12-29,2,Rabu,False,31,520000,13.1616,-0.1739,0.1242
+2026-01-01,pemasukan,1190000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.45,False,1190000,2026,1,2026-01,1,2025-12-29,3,Kamis,False,1,1190000,13.9895,0.6442,0.2993
+2026-01-02,pengeluaran,620000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.9,False,620000,2026,1,2026-01,1,2025-12-29,4,Jumat,False,2,-620000,13.3375,1.237,0.7692
+2026-01-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,1,2026-01,1,2025-12-29,6,Minggu,True,4,-600000,13.3047,1.1488,0.7436
+2026-01-06,pengeluaran,130000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.67,False,130000,2026,1,2026-01,1,2026-01-05,1,Selasa,False,6,-130000,11.7753,-0.9227,0.141
+2026-01-09,pengeluaran,355000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-0.58,False,355000,2026,1,2026-01,1,2026-01-05,4,Jumat,False,9,-355000,12.7799,0.069,0.4295
+2026-01-10,pemasukan,460000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,1.69,False,460000,2026,1,2026-01,1,2026-01-05,5,Sabtu,True,10,460000,13.039,-0.2471,0.1085
+2026-01-11,pemasukan,235000,media sosial,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.21,False,235000,2026,1,2026-01,1,2026-01-05,6,Minggu,True,11,235000,12.3673,-0.5219,0.0497
+2026-01-11,pengeluaran,70000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,0.34,False,70000,2026,1,2026-01,1,2026-01-05,6,Minggu,True,11,-70000,11.1563,-1.1871,0.0641
+2026-01-13,pengeluaran,135000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,-0.22,False,135000,2026,1,2026-01,1,2026-01-12,1,Selasa,False,13,-135000,11.813,-0.9006,0.1474
+2026-01-16,pengeluaran,500000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.13,False,500000,2026,1,2026-01,1,2026-01-12,4,Jumat,False,16,-500000,13.1224,0.7081,0.6154
+2026-01-17,pemasukan,135000,toko,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,2.43,True,130000,2026,1,2026-01,1,2026-01-12,5,Sabtu,True,17,135000,11.813,-0.644,0.0235
+2026-01-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,1,2026-01,1,2026-01-19,0,Senin,False,19,-600000,13.3047,1.1488,0.7436
+2026-01-21,pemasukan,235000,toko,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.21,False,235000,2026,1,2026-01,1,2026-01-19,2,Rabu,False,21,235000,12.3673,-0.5219,0.0497
+2026-01-21,pemasukan,2025000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,0.87,False,2025000,2026,1,2026-01,1,2026-01-19,2,Rabu,False,21,2025000,14.5211,1.6638,0.5176
+2026-01-24,pemasukan,305000,WhatsApp,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.38,False,305000,2026,1,2026-01,1,2026-01-19,5,Sabtu,True,24,305000,12.6281,-0.4364,0.068
+2026-01-30,pemasukan,355000,media sosial,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.8,False,355000,2026,1,2026-01,1,2026-01-26,4,Jumat,False,30,355000,12.7799,-0.3754,0.081
+2026-02-02,pengeluaran,480000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.0,False,480000,2026,2,2026-02,1,2026-02-02,0,Senin,False,2,-480000,13.0815,0.6199,0.5897
+2026-02-04,pemasukan,95000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,0.27,False,95000,2026,2,2026-02,1,2026-02-02,2,Rabu,False,4,95000,11.4616,-0.6928,0.0131
+2026-02-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,2,2026-02,1,2026-02-02,2,Rabu,False,4,-600000,13.3047,1.1488,0.7436
+2026-02-06,pemasukan,240000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.17,False,240000,2026,2,2026-02,1,2026-02-02,4,Jumat,False,6,240000,12.3884,-0.5158,0.051
+2026-02-06,pengeluaran,105000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-0.07,False,105000,2026,2,2026-02,1,2026-02-02,4,Jumat,False,6,-105000,11.5617,-1.0329,0.109
+2026-02-09,pengeluaran,330000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-1.54,False,330000,2026,2,2026-02,1,2026-02-09,0,Senin,False,9,-330000,12.7069,-0.0412,0.3974
+2026-02-10,pemasukan,165000,toko,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.8,False,165000,2026,2,2026-02,1,2026-02-09,1,Selasa,False,10,165000,12.0137,-0.6074,0.0314
+2026-02-11,pengeluaran,85000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,1.35,False,85000,2026,2,2026-02,1,2026-02-09,2,Rabu,False,11,-85000,11.3504,-1.121,0.0833
+2026-02-13,pemasukan,350000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.76,False,350000,2026,2,2026-02,1,2026-02-09,4,Jumat,False,13,350000,12.7657,-0.3815,0.0797
+2026-02-13,pemasukan,270000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.08,False,270000,2026,2,2026-02,1,2026-02-09,4,Jumat,False,13,270000,12.5062,-0.4792,0.0588
+2026-02-13,pengeluaran,125000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,-0.67,False,125000,2026,2,2026-02,1,2026-02-09,4,Jumat,False,13,-125000,11.7361,-0.9447,0.1346
+2026-02-15,pemasukan,1720000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,0.39,False,1720000,2026,2,2026-02,1,2026-02-09,6,Minggu,True,15,1720000,14.3578,1.2914,0.4379
+2026-02-16,pengeluaran,385000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.61,False,385000,2026,2,2026-02,1,2026-02-16,0,Senin,False,16,-385000,12.861,0.2012,0.4679
+2026-02-17,pengeluaran,140000,Non-Penjualan,QRIS,Promosi dan Iklan,Budi Santoso,karyawan,140000.0,0.0,False,140000,2026,2,2026-02,1,2026-02-16,1,Selasa,False,17,-140000,11.8494,-0.8786,0.1538
+2026-02-18,pemasukan,160000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.84,False,160000,2026,2,2026-02,1,2026-02-16,2,Rabu,False,18,160000,11.9829,-0.6135,0.0301
+2026-02-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,2,2026-02,1,2026-02-16,3,Kamis,False,19,-600000,13.3047,1.1488,0.7436
+2026-02-25,pemasukan,1815000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,0.54,False,1815000,2026,2,2026-02,1,2026-02-23,2,Rabu,False,25,1815000,14.4116,1.4074,0.4627
+2026-02-28,pemasukan,575000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,2.66,True,572500,2026,2,2026-02,1,2026-02-23,5,Sabtu,True,28,575000,13.2621,-0.1067,0.1386
+2026-02-28,pemasukan,480000,media sosial,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,1.85,False,480000,2026,2,2026-02,1,2026-02-23,5,Sabtu,True,28,480000,13.0815,-0.2227,0.1137
+2026-03-02,pengeluaran,795000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,2.02,False,795000,2026,3,2026-03,1,2026-03-02,0,Senin,False,2,-795000,13.5861,2.0083,0.9936
+2026-03-04,pemasukan,3315000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,2.92,False,3315000,2026,3,2026-03,1,2026-03-02,2,Rabu,False,4,3315000,15.014,3.239,0.8549
+2026-03-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,3,2026-03,1,2026-03-02,2,Rabu,False,4,-600000,13.3047,1.1488,0.7436
+2026-03-06,pengeluaran,125000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.52,False,125000,2026,3,2026-03,1,2026-03-02,4,Jumat,False,6,-125000,11.7361,-0.9447,0.1346
+2026-03-07,pemasukan,145000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,2.97,True,130000,2026,3,2026-03,1,2026-03-02,5,Sabtu,True,7,145000,11.8845,-0.6318,0.0261
+2026-03-09,pengeluaran,355000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-0.58,False,355000,2026,3,2026-03,1,2026-03-09,0,Senin,False,9,-355000,12.7799,0.069,0.4295
+2026-03-11,pemasukan,3870000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,3.8,True,3527500,2026,3,2026-03,1,2026-03-09,2,Rabu,False,11,3870000,15.1688,3.9167,1.0
+2026-03-11,pengeluaran,115000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,3.37,True,95000,2026,3,2026-03,1,2026-03-09,2,Rabu,False,11,-115000,11.6527,-0.9888,0.1218
+2026-03-13,pengeluaran,140000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.0,False,140000,2026,3,2026-03,1,2026-03-09,4,Jumat,False,13,-140000,11.8494,-0.8786,0.1538
+2026-03-14,pemasukan,2825000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,2.14,False,2825000,2026,3,2026-03,1,2026-03-09,5,Sabtu,True,14,2825000,14.854,2.6407,0.7268
+2026-03-16,pemasukan,2550000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,1.71,False,2550000,2026,3,2026-03,1,2026-03-16,0,Senin,False,16,2550000,14.7516,2.3049,0.6549
+2026-03-16,pengeluaran,640000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,1.03,False,640000,2026,3,2026-03,1,2026-03-16,0,Senin,False,16,-640000,13.3692,1.3251,0.7949
+2026-03-17,pemasukan,260000,media sosial,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,0.0,False,260000,2026,3,2026-03,1,2026-03-16,1,Selasa,False,17,260000,12.4684,-0.4914,0.0562
+2026-03-18,pemasukan,3335000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,2.95,False,3335000,2026,3,2026-03,1,2026-03-16,2,Rabu,False,18,3335000,15.02,3.2635,0.8601
+2026-03-19,pemasukan,2660000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,1.88,False,2660000,2026,3,2026-03,1,2026-03-16,3,Kamis,False,19,2660000,14.7938,2.4392,0.6837
+2026-03-19,pemasukan,650000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,3.29,True,572500,2026,3,2026-03,1,2026-03-16,3,Kamis,False,19,650000,13.3847,-0.0151,0.1582
+2026-03-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,3,2026-03,1,2026-03-16,3,Kamis,False,19,-600000,13.3047,1.1488,0.7436
+2026-03-23,pemasukan,345000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.72,False,345000,2026,3,2026-03,1,2026-03-23,0,Senin,False,23,345000,12.7513,-0.3876,0.0784
+2026-03-28,pemasukan,415000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,1.31,False,415000,2026,3,2026-03,1,2026-03-23,5,Sabtu,True,28,415000,12.936,-0.3021,0.0967
+2026-03-31,pemasukan,95000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,0.27,False,95000,2026,3,2026-03,1,2026-03-30,1,Selasa,False,31,95000,11.4616,-0.6928,0.0131
+2026-04-02,pengeluaran,800000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,2.06,False,800000,2026,4,2026-04,2,2026-03-30,3,Kamis,False,2,-800000,13.5924,2.0303,1.0
+2026-04-04,pemasukan,270000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.08,False,270000,2026,4,2026-04,2,2026-03-30,5,Sabtu,True,4,270000,12.5062,-0.4792,0.0588
+2026-04-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,4,2026-04,2,2026-03-30,5,Sabtu,True,4,-600000,13.3047,1.1488,0.7436
+2026-04-06,pengeluaran,135000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.82,False,135000,2026,4,2026-04,2,2026-04-06,0,Senin,False,6,-135000,11.813,-0.9006,0.1474
+2026-04-09,pengeluaran,365000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-0.19,False,365000,2026,4,2026-04,2,2026-04-06,3,Kamis,False,9,-365000,12.8077,0.1131,0.4423
+2026-04-11,pengeluaran,75000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,0.67,False,75000,2026,4,2026-04,2,2026-04-06,5,Sabtu,True,11,-75000,11.2253,-1.1651,0.0705
+2026-04-13,pemasukan,1440000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.06,False,1440000,2026,4,2026-04,2,2026-04-13,0,Senin,False,13,1440000,14.1802,0.9495,0.3647
+2026-04-13,pengeluaran,160000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.9,False,160000,2026,4,2026-04,2,2026-04-13,0,Senin,False,13,-160000,11.9829,-0.7904,0.1795
+2026-04-16,pemasukan,175000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.72,False,175000,2026,4,2026-04,2,2026-04-13,3,Kamis,False,16,175000,12.0725,-0.5952,0.034
+2026-04-16,pengeluaran,640000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,1.03,False,640000,2026,4,2026-04,2,2026-04-13,3,Kamis,False,16,-640000,13.3692,1.3251,0.7949
+2026-04-17,pemasukan,405000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,1.22,False,405000,2026,4,2026-04,2,2026-04-13,4,Jumat,False,17,405000,12.9116,-0.3143,0.0941
+2026-04-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,4,2026-04,2,2026-04-13,6,Minggu,True,19,-600000,13.3047,1.1488,0.7436
+2026-04-21,pengeluaran,275000,Non-Penjualan,Tunai,Peralatan dan Perawatan,Budi Santoso,karyawan,140000.0,2.6,True,272500,2026,4,2026-04,2,2026-04-20,1,Selasa,False,21,-275000,12.5245,-0.2836,0.3269
+2026-04-23,pemasukan,270000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.08,False,270000,2026,4,2026-04,2,2026-04-20,3,Kamis,False,23,270000,12.5062,-0.4792,0.0588
+2026-04-23,pemasukan,2125000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,1.03,False,2125000,2026,4,2026-04,2,2026-04-20,3,Kamis,False,23,2125000,14.5693,1.786,0.5438
+2026-04-24,pemasukan,350000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.76,False,350000,2026,4,2026-04,2,2026-04-20,4,Jumat,False,24,350000,12.7657,-0.3815,0.0797
+2026-05-01,pemasukan,390000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,1.1,False,390000,2026,5,2026-05,2,2026-04-27,4,Jumat,False,1,390000,12.8739,-0.3326,0.0902
+2026-05-02,pengeluaran,500000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.13,False,500000,2026,5,2026-05,2,2026-04-27,5,Sabtu,True,2,-500000,13.1224,0.7081,0.6154
+2026-05-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,5,2026-05,2,2026-05-04,0,Senin,False,4,-600000,13.3047,1.1488,0.7436
+2026-05-06,pengeluaran,120000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.37,False,120000,2026,5,2026-05,2,2026-05-04,2,Rabu,False,6,-120000,11.6953,-0.9667,0.1282
+2026-05-09,pengeluaran,385000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,0.58,False,385000,2026,5,2026-05,2,2026-05-04,5,Sabtu,True,9,-385000,12.861,0.2012,0.4679
+2026-05-11,pengeluaran,65000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,0.0,False,65000,2026,5,2026-05,2,2026-05-11,0,Senin,False,11,-65000,11.0822,-1.2091,0.0577
+2026-05-12,pemasukan,1075000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.63,False,1075000,2026,5,2026-05,2,2026-05-11,1,Selasa,False,12,1075000,13.8878,0.5038,0.2693
+2026-05-13,pengeluaran,160000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.9,False,160000,2026,5,2026-05,2,2026-05-11,2,Rabu,False,13,-160000,11.9829,-0.7904,0.1795
+2026-05-15,pemasukan,1730000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,0.4,False,1730000,2026,5,2026-05,2,2026-05-11,4,Jumat,False,15,1730000,14.3636,1.3036,0.4405
+2026-05-16,pengeluaran,400000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.51,False,400000,2026,5,2026-05,2,2026-05-11,5,Sabtu,True,16,-400000,12.8992,0.2673,0.4872
+2026-05-18,pemasukan,185000,WhatsApp,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.63,False,185000,2026,5,2026-05,2,2026-05-18,0,Senin,False,18,185000,12.1281,-0.5829,0.0366
+2026-05-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,5,2026-05,2,2026-05-18,1,Selasa,False,19,-600000,13.3047,1.1488,0.7436
+2026-05-22,pemasukan,290000,WhatsApp,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.25,False,290000,2026,5,2026-05,2,2026-05-18,4,Jumat,False,22,290000,12.5776,-0.4547,0.0641
+2026-05-24,pemasukan,220000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.34,False,220000,2026,5,2026-05,2,2026-05-18,6,Minggu,True,24,220000,12.3014,-0.5402,0.0458
+2026-05-24,pemasukan,80000,toko,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,-0.54,False,80000,2026,5,2026-05,2,2026-05-18,6,Minggu,True,24,80000,11.2898,-0.7112,0.0092
+2026-05-30,pemasukan,380000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,1.01,False,380000,2026,5,2026-05,2,2026-05-25,5,Sabtu,True,30,380000,12.8479,-0.3448,0.0876
+2026-06-01,pemasukan,205000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.46,False,205000,2026,6,2026-06,2,2026-06-01,0,Senin,False,1,205000,12.2308,-0.5585,0.0418
+2026-06-02,pengeluaran,540000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.39,False,540000,2026,6,2026-06,2,2026-06-01,1,Selasa,False,2,-540000,13.1993,0.8844,0.6667
+2026-06-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,6,2026-06,2,2026-06-01,3,Kamis,False,4,-600000,13.3047,1.1488,0.7436
+2026-06-06,pemasukan,70000,toko,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,-1.08,False,70000,2026,6,2026-06,2,2026-06-01,5,Sabtu,True,6,70000,11.1563,-0.7234,0.0065
+2026-06-06,pengeluaran,110000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.07,False,110000,2026,6,2026-06,2,2026-06-01,5,Sabtu,True,6,-110000,11.6082,-1.0108,0.1154
+2026-06-07,pemasukan,220000,WhatsApp,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.34,False,220000,2026,6,2026-06,2,2026-06-01,6,Minggu,True,7,220000,12.3014,-0.5402,0.0458
+2026-06-08,pemasukan,955000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.83,False,955000,2026,6,2026-06,2,2026-06-08,0,Senin,False,8,955000,13.7695,0.3573,0.2379
+2026-06-09,pemasukan,160000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.84,False,160000,2026,6,2026-06,2,2026-06-08,1,Selasa,False,9,160000,11.9829,-0.6135,0.0301
+2026-06-09,pengeluaran,420000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,1.93,False,420000,2026,6,2026-06,2,2026-06-08,1,Selasa,False,9,-420000,12.948,0.3555,0.5128
+2026-06-11,pengeluaran,60000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,-0.34,False,60000,2026,6,2026-06,2,2026-06-08,3,Kamis,False,11,-60000,11.0021,-1.2312,0.0513
+2026-06-13,pengeluaran,155000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.67,False,155000,2026,6,2026-06,2,2026-06-08,5,Sabtu,True,13,-155000,11.9512,-0.8125,0.1731
+2026-06-16,pengeluaran,435000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.29,False,435000,2026,6,2026-06,2,2026-06-15,1,Selasa,False,16,-435000,12.9831,0.4216,0.5321
+2026-06-17,pengeluaran,140000,Non-Penjualan,QRIS,Promosi dan Iklan,Budi Santoso,karyawan,140000.0,0.0,False,140000,2026,6,2026-06,2,2026-06-15,2,Rabu,False,17,-140000,11.8494,-0.8786,0.1538
+2026-06-19,pemasukan,335000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.63,False,335000,2026,6,2026-06,2,2026-06-15,4,Jumat,False,19,335000,12.7219,-0.3998,0.0758
+2026-06-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,6,2026-06,2,2026-06-15,4,Jumat,False,19,-600000,13.3047,1.1488,0.7436
+2026-06-23,pemasukan,1180000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.47,False,1180000,2026,6,2026-06,2,2026-06-22,1,Selasa,False,23,1180000,13.981,0.632,0.2967
+2026-06-27,pemasukan,240000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.17,False,240000,2026,6,2026-06,2,2026-06-22,5,Sabtu,True,27,240000,12.3884,-0.5158,0.051
+2026-06-30,pemasukan,370000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-1.75,False,370000,2026,6,2026-06,2,2026-06-29,1,Selasa,False,30,370000,12.8213,-0.357,0.085
+2026-07-02,pengeluaran,425000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.35,False,425000,2026,7,2026-07,3,2026-06-29,3,Kamis,False,2,-425000,12.9598,0.3775,0.5192
+2026-07-04,pemasukan,105000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-1.31,False,105000,2026,7,2026-07,3,2026-06-29,5,Sabtu,True,4,105000,11.5617,-0.6806,0.0157
+2026-07-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,7,2026-07,3,2026-06-29,5,Sabtu,True,4,-600000,13.3047,1.1488,0.7436
+2026-07-06,pengeluaran,30000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-2.32,False,30000,2026,7,2026-07,3,2026-07-06,0,Senin,False,6,-30000,10.309,-1.3634,0.0128
+2026-07-09,pengeluaran,395000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,0.96,False,395000,2026,7,2026-07,3,2026-07-06,3,Kamis,False,9,-395000,12.8866,0.2453,0.4808
+2026-07-11,pemasukan,110000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-1.26,False,110000,2026,7,2026-07,3,2026-07-06,5,Sabtu,True,11,110000,11.6082,-0.6745,0.017
+2026-07-11,pengeluaran,20000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,-3.04,True,35000,2026,7,2026-07,3,2026-07-06,5,Sabtu,True,11,-20000,9.9035,-1.4075,0.0
+2026-07-12,pemasukan,75000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-1.56,False,75000,2026,7,2026-07,3,2026-07-06,6,Minggu,True,12,75000,11.2253,-0.7173,0.0078
+2026-07-13,pengeluaran,160000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.9,False,160000,2026,7,2026-07,3,2026-07-13,0,Senin,False,13,-160000,11.9829,-0.7904,0.1795
+2026-07-14,pemasukan,90000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-1.43,False,90000,2026,7,2026-07,3,2026-07-13,1,Selasa,False,14,90000,11.4076,-0.699,0.0118
+2026-07-16,pemasukan,60000,media sosial,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-1.69,False,60000,2026,7,2026-07,3,2026-07-13,3,Kamis,False,16,60000,11.0021,-0.7356,0.0039
+2026-07-16,pemasukan,80000,WhatsApp,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-1.52,False,80000,2026,7,2026-07,3,2026-07-13,3,Kamis,False,16,80000,11.2898,-0.7112,0.0092
+2026-07-16,pengeluaran,340000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.9,False,340000,2026,7,2026-07,3,2026-07-13,3,Kamis,False,16,-340000,12.7367,0.0029,0.4103
+2026-07-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,7,2026-07,3,2026-07-13,6,Minggu,True,19,-600000,13.3047,1.1488,0.7436
+2026-07-23,pemasukan,45000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,-2.43,False,45000,2026,7,2026-07,3,2026-07-20,3,Kamis,False,23,45000,10.7144,-0.7539,0.0
+2026-07-23,pemasukan,650000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-1.31,False,650000,2026,7,2026-07,3,2026-07-20,3,Kamis,False,23,650000,13.3847,-0.0151,0.1582
+2026-07-31,pemasukan,1480000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,0.01,False,1480000,2026,7,2026-07,3,2026-07-27,4,Jumat,False,31,1480000,14.2076,0.9984,0.3752
+2026-08-02,pengeluaran,455000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.16,False,455000,2026,8,2026-08,3,2026-07-27,6,Minggu,True,2,-455000,13.0281,0.5097,0.5577
+2026-08-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,8,2026-08,3,2026-08-03,1,Selasa,False,4,-600000,13.3047,1.1488,0.7436
+2026-08-06,pengeluaran,75000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-0.97,False,75000,2026,8,2026-08,3,2026-08-03,3,Kamis,False,6,-75000,11.2253,-1.1651,0.0705
+2026-08-08,pemasukan,295000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,0.3,False,295000,2026,8,2026-08,3,2026-08-03,5,Sabtu,True,8,295000,12.5947,-0.4486,0.0654
+2026-08-08,pemasukan,210000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.42,False,210000,2026,8,2026-08,3,2026-08-03,5,Sabtu,True,8,210000,12.2549,-0.5524,0.0431
+2026-08-09,pengeluaran,375000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,0.19,False,375000,2026,8,2026-08,3,2026-08-03,6,Minggu,True,9,-375000,12.8347,0.1572,0.4551
+2026-08-11,pengeluaran,65000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,0.0,False,65000,2026,8,2026-08,3,2026-08-10,1,Selasa,False,11,-65000,11.0822,-1.2091,0.0577
+2026-08-13,pengeluaran,140000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.0,False,140000,2026,8,2026-08,3,2026-08-10,3,Kamis,False,13,-140000,11.8494,-0.8786,0.1538
+2026-08-16,pengeluaran,365000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.74,False,365000,2026,8,2026-08,3,2026-08-10,6,Minggu,True,16,-365000,12.8077,0.1131,0.4423
+2026-08-18,pemasukan,180000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.67,False,180000,2026,8,2026-08,3,2026-08-17,1,Selasa,False,18,180000,12.1007,-0.5891,0.0353
+2026-08-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,8,2026-08,3,2026-08-17,2,Rabu,False,19,-600000,13.3047,1.1488,0.7436
+2026-08-24,pemasukan,70000,toko,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,-1.08,False,70000,2026,8,2026-08,3,2026-08-24,0,Senin,False,24,70000,11.1563,-0.7234,0.0065
+2026-08-25,pemasukan,150000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.93,False,150000,2026,8,2026-08,3,2026-08-24,1,Selasa,False,25,150000,11.9184,-0.6257,0.0275
+2026-08-25,pemasukan,1095000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.6,False,1095000,2026,8,2026-08,3,2026-08-24,1,Selasa,False,25,1095000,13.9063,0.5282,0.2745
+2026-08-28,pemasukan,265000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.04,False,265000,2026,8,2026-08,3,2026-08-24,4,Jumat,False,28,265000,12.4875,-0.4853,0.0575
+2026-09-02,pengeluaran,790000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,1.99,False,790000,2026,9,2026-09,3,2026-08-31,2,Rabu,False,2,-790000,13.5798,1.9862,0.9872
+2026-09-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,9,2026-09,3,2026-08-31,4,Jumat,False,4,-600000,13.3047,1.1488,0.7436
+2026-09-06,pemasukan,215000,WhatsApp,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.38,False,215000,2026,9,2026-09,3,2026-08-31,6,Minggu,True,6,215000,12.2784,-0.5463,0.0444
+2026-09-06,pengeluaran,80000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-0.82,False,80000,2026,9,2026-09,3,2026-08-31,6,Minggu,True,6,-80000,11.2898,-1.143,0.0769
+2026-09-08,pemasukan,210000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.42,False,210000,2026,9,2026-09,3,2026-09-07,1,Selasa,False,8,210000,12.2549,-0.5524,0.0431
+2026-09-09,pengeluaran,400000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,1.16,False,400000,2026,9,2026-09,3,2026-09-07,2,Rabu,False,9,-400000,12.8992,0.2673,0.4872
+2026-09-10,pemasukan,1025000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.71,False,1025000,2026,9,2026-09,3,2026-09-07,3,Kamis,False,10,1025000,13.8402,0.4428,0.2562
+2026-09-11,pengeluaran,50000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,-1.01,False,50000,2026,9,2026-09,3,2026-09-07,4,Jumat,False,11,-50000,10.8198,-1.2753,0.0385
+2026-09-12,pemasukan,340000,toko,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.67,False,340000,2026,9,2026-09,3,2026-09-07,5,Sabtu,True,12,340000,12.7367,-0.3937,0.0771
+2026-09-13,pengeluaran,145000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.22,False,145000,2026,9,2026-09,3,2026-09-07,6,Minggu,True,13,-145000,11.8845,-0.8566,0.1603
+2026-09-16,pengeluaran,630000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.96,False,630000,2026,9,2026-09,3,2026-09-14,2,Rabu,False,16,-630000,13.3535,1.281,0.7821
+2026-09-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,9,2026-09,3,2026-09-14,5,Sabtu,True,19,-600000,13.3047,1.1488,0.7436
+2026-09-21,pengeluaran,205000,Non-Penjualan,Tunai,Peralatan dan Perawatan,Budi Santoso,karyawan,140000.0,1.25,False,205000,2026,9,2026-09,3,2026-09-21,0,Senin,False,21,-205000,12.2308,-0.5921,0.2372
+2026-09-25,pemasukan,320000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,0.51,False,320000,2026,9,2026-09,3,2026-09-21,4,Jumat,False,25,320000,12.6761,-0.4181,0.0719
+2026-09-26,pemasukan,280000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,0.17,False,280000,2026,9,2026-09,3,2026-09-21,5,Sabtu,True,26,280000,12.5425,-0.4669,0.0614
+2026-09-26,pemasukan,1395000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.13,False,1395000,2026,9,2026-09,3,2026-09-21,5,Sabtu,True,26,1395000,14.1484,0.8946,0.3529
+2026-09-28,pemasukan,100000,toko,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,0.54,False,100000,2026,9,2026-09,3,2026-09-28,0,Senin,False,28,100000,11.5129,-0.6867,0.0144
+2026-10-02,pemasukan,385000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,1.05,False,385000,2026,10,2026-10,4,2026-09-28,4,Jumat,False,2,385000,12.861,-0.3387,0.0889
+2026-10-02,pemasukan,355000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.8,False,355000,2026,10,2026-10,4,2026-09-28,4,Jumat,False,2,355000,12.7799,-0.3754,0.081
+2026-10-02,pengeluaran,405000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.48,False,405000,2026,10,2026-10,4,2026-09-28,4,Jumat,False,2,-405000,12.9116,0.2894,0.4936
+2026-10-04,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,10,2026-10,4,2026-09-28,6,Minggu,True,4,-600000,13.3047,1.1488,0.7436
+2026-10-06,pengeluaran,110000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,0.07,False,110000,2026,10,2026-10,4,2026-10-05,1,Selasa,False,6,-110000,11.6082,-1.0108,0.1154
+2026-10-08,pemasukan,250000,media sosial,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.08,False,250000,2026,10,2026-10,4,2026-10-05,3,Kamis,False,8,250000,12.4292,-0.5036,0.0536
+2026-10-09,pemasukan,1455000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.03,False,1455000,2026,10,2026-10,4,2026-10-05,4,Jumat,False,9,1455000,14.1905,0.9678,0.3686
+2026-10-09,pengeluaran,375000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,0.19,False,375000,2026,10,2026-10,4,2026-10-05,4,Jumat,False,9,-375000,12.8347,0.1572,0.4551
+2026-10-10,pemasukan,295000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.3,False,295000,2026,10,2026-10,4,2026-10-05,5,Sabtu,True,10,295000,12.5947,-0.4486,0.0654
+2026-10-11,pengeluaran,55000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,-0.67,False,55000,2026,10,2026-10,4,2026-10-05,6,Minggu,True,11,-55000,10.9151,-1.2532,0.0449
+2026-10-13,pengeluaran,125000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,-0.67,False,125000,2026,10,2026-10,4,2026-10-12,1,Selasa,False,13,-125000,11.7361,-0.9447,0.1346
+2026-10-16,pemasukan,225000,toko,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.3,False,225000,2026,10,2026-10,4,2026-10-12,4,Jumat,False,16,225000,12.3239,-0.5341,0.0471
+2026-10-16,pengeluaran,325000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-1.0,False,325000,2026,10,2026-10,4,2026-10-12,4,Jumat,False,16,-325000,12.6916,-0.0632,0.391
+2026-10-17,pengeluaran,130000,Non-Penjualan,QRIS,Promosi dan Iklan,Budi Santoso,karyawan,140000.0,-0.19,False,130000,2026,10,2026-10,4,2026-10-12,5,Sabtu,True,17,-130000,11.7753,-0.9227,0.141
+2026-10-19,pengeluaran,600000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,0.0,False,600000,2026,10,2026-10,4,2026-10-19,0,Senin,False,19,-600000,13.3047,1.1488,0.7436
+2026-10-26,pemasukan,1470000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.01,False,1470000,2026,10,2026-10,4,2026-10-26,0,Senin,False,26,1470000,14.2008,0.9861,0.3725
+2026-10-30,pemasukan,90000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,0.0,False,90000,2026,10,2026-10,4,2026-10-26,4,Jumat,False,30,90000,11.4076,-0.699,0.0118
+2026-10-31,pemasukan,150000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.93,False,150000,2026,10,2026-10,4,2026-10-26,5,Sabtu,True,31,150000,11.9184,-0.6257,0.0275
+2026-10-31,pengeluaran,50000,Non-Penjualan,Tunai,Bahan Baku,Budi Santoso,karyawan,480000.0,-2.76,True,60625,2026,10,2026-10,4,2026-10-26,5,Sabtu,True,31,-50000,10.8198,-1.2753,0.0385
+2026-11-01,pemasukan,75000,toko,Tunai,Penjualan Bumbu,Siti Indriani,karyawan,90000.0,-0.81,False,75000,2026,11,2026-11,4,2026-10-26,6,Minggu,True,1,75000,11.2253,-0.7173,0.0078
+2026-11-01,pengeluaran,300000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,-0.48,True,600000,2026,11,2026-11,4,2026-10-26,6,Minggu,True,1,-300000,12.6115,-0.1734,0.359
+2026-11-02,pengeluaran,25000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-2.47,False,25000,2026,11,2026-11,4,2026-11-02,0,Senin,False,2,-25000,10.1267,-1.3854,0.0064
+2026-11-03,pemasukan,450000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-1.63,False,450000,2026,11,2026-11,4,2026-11-02,1,Selasa,False,3,450000,13.017,-0.2594,0.1059
+2026-11-04,pemasukan,180000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.67,False,180000,2026,11,2026-11,4,2026-11-02,2,Rabu,False,4,180000,12.1007,-0.5891,0.0353
+2026-11-04,pengeluaran,420000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,-0.39,False,420000,2026,11,2026-11,4,2026-11-02,2,Rabu,False,4,-420000,12.948,0.3555,0.5128
+2026-11-05,pemasukan,225000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,-0.3,False,225000,2026,11,2026-11,4,2026-11-02,3,Kamis,False,5,225000,12.3239,-0.5341,0.0471
+2026-11-06,pemasukan,1250000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Fajar Gustiana,admin,1475000.0,-0.36,False,1250000,2026,11,2026-11,4,2026-11-02,4,Jumat,False,6,1250000,14.0387,0.7175,0.315
+2026-11-06,pengeluaran,85000,Non-Penjualan,Tunai,Kemasan,Budi Santoso,karyawan,107500.0,-0.67,False,85000,2026,11,2026-11,4,2026-11-02,4,Jumat,False,6,-85000,11.3504,-1.121,0.0833
+2026-11-07,pemasukan,300000,toko,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,0.34,False,300000,2026,11,2026-11,4,2026-11-02,5,Sabtu,True,7,300000,12.6115,-0.4425,0.0667
+2026-11-07,pengeluaran,60000,Non-Penjualan,Tunai,Transportasi,Budi Santoso,karyawan,65000.0,-0.34,False,60000,2026,11,2026-11,4,2026-11-02,5,Sabtu,True,7,-60000,11.0021,-1.2312,0.0513
+2026-11-08,pengeluaran,350000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-0.77,False,350000,2026,11,2026-11,4,2026-11-02,6,Minggu,True,8,-350000,12.7657,0.047,0.4231
+2026-11-09,pemasukan,195000,toko,Tunai,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.55,False,195000,2026,11,2026-11,4,2026-11-09,0,Senin,False,9,195000,12.1808,-0.5707,0.0392
+2026-11-10,pemasukan,90000,WhatsApp,Tunai,Penjualan Bumbu,Budi Santoso,karyawan,90000.0,0.0,False,90000,2026,11,2026-11,4,2026-11-09,1,Selasa,False,10,90000,11.4076,-0.699,0.0118
+2026-11-11,pengeluaran,750000,Non-Penjualan,Tunai,Bahan Baku,Fajar Gustiana,admin,480000.0,1.73,False,750000,2026,11,2026-11,4,2026-11-09,2,Rabu,False,11,-750000,13.5278,1.8099,0.9359
+2026-11-12,pemasukan,270000,toko,Tunai,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.08,False,270000,2026,11,2026-11,4,2026-11-09,3,Kamis,False,12,270000,12.5062,-0.4792,0.0588
+2026-11-13,pengeluaran,140000,Non-Penjualan,Tunai,Gas dan Bahan Bakar Produksi,Siti Indriani,karyawan,140000.0,0.0,False,140000,2026,11,2026-11,4,2026-11-09,4,Jumat,False,13,-140000,11.8494,-0.8786,0.1538
+2026-11-14,pemasukan,2100000,reseller/toko oleh-oleh,Tunai,Pesanan Grosir,Budi Santoso,karyawan,1475000.0,0.99,False,2100000,2026,11,2026-11,4,2026-11-09,5,Sabtu,True,14,2100000,14.5574,1.7554,0.5373
+2026-11-15,pengeluaran,300000,Non-Penjualan,Tunai,Gaji Karyawan,Fajar Gustiana,admin,600000.0,-0.48,True,600000,2026,11,2026-11,4,2026-11-09,6,Minggu,True,15,-300000,12.6115,-0.1734,0.359
+2026-11-16,pemasukan,165000,WhatsApp,QRIS,Penjualan Dorokdok,Siti Indriani,karyawan,260000.0,-0.8,False,165000,2026,11,2026-11,4,2026-11-16,0,Senin,False,16,165000,12.0137,-0.6074,0.0314
+2026-11-17,pengeluaran,100000,Non-Penjualan,Tunai,Promosi dan Iklan,Budi Santoso,karyawan,140000.0,-0.77,False,100000,2026,11,2026-11,4,2026-11-16,1,Selasa,False,17,-100000,11.5129,-1.0549,0.1026
+2026-11-18,pengeluaran,480000,Non-Penjualan,Tunai,Bahan Baku,Siti Indriani,karyawan,480000.0,0.0,False,480000,2026,11,2026-11,4,2026-11-16,2,Rabu,False,18,-480000,13.0815,0.6199,0.5897
+2026-11-19,pemasukan,2000000,Tidak Diketahui,Tunai,Modal Tambahan,Fajar Gustiana,admin,2000000.0,0.0,False,2000000,2026,11,2026-11,4,2026-11-16,3,Kamis,False,19,2000000,14.5087,1.6333,0.5111
+2026-11-20,pemasukan,330000,media sosial,QRIS,Penjualan Dorokdok,Budi Santoso,karyawan,260000.0,0.59,False,330000,2026,11,2026-11,4,2026-11-16,4,Jumat,False,20,330000,12.7069,-0.4059,0.0745
+2026-11-21,pengeluaran,175000,Non-Penjualan,Tunai,Peralatan dan Perawatan,Siti Indriani,karyawan,140000.0,0.67,False,175000,2026,11,2026-11,4,2026-11-16,5,Sabtu,True,21,-175000,12.0725,-0.7243,0.1987
+2026-11-22,pemasukan,1500000,reseller/toko oleh-oleh,QRIS,Pesanan Grosir,Budi Santoso,karyawan,1475000.0,0.04,False,1500000,2026,11,2026-11,4,2026-11-16,6,Minggu,True,22,1500000,14.221,1.0228,0.3804
+2026-11-23,pengeluaran,120000,Non-Penjualan,Tunai,Listrik dan Air,Fajar Gustiana,admin,370000.0,-9.64,True,303125,2026,11,2026-11,4,2026-11-23,0,Senin,False,23,-120000,11.6953,-0.9667,0.1282

@@ -1,0 +1,4 @@
+id,name,email,password,role,is_active
+1,Fajar Gustiana,fajar@dorokdok.com,password123,admin,TRUE
+2,Budi Santoso,budi@dorokdok.com,password123,karyawan,TRUE
+3,Siti Aminah,siti@dorokdok.com,password123,karyawan,TRUE

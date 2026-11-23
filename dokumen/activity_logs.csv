@@ -1,0 +1,6 @@
+id,user_id,action,description
+1,2,LOGIN,Budi berhasil login ke sistem
+2,2,CREATE,Menambahkan transaksi penjualan Rp 150.000
+3,1,LOGIN,Admin Fajar berhasil login
+4,1,CREATE,Menambahkan akun karyawan baru (Siti Aminah)
+5,3,CREATE,Menambahkan transaksi pengeluaran kemasan

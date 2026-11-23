@@ -1,0 +1,44 @@
+:root {
+  /* --- WARNA MODE TERANG (LIGHT) --- */
+  --bg-body: #f8fafc;       /* Latar belakang aplikasi */
+  --bg-card: #ffffff;       /* Latar belakang kartu/panel */
+  --text-main: #1e293b;     /* Teks utama (gelap) */
+  --text-muted: #64748b;    /* Teks sekunder (abu-abu) */
+  --border-color: #e2e8f0;  /* Garis batas */
+  
+  --sidebar-bg: #0f172a;    /* Sidebar tetap gelap di mode terang */
+  --sidebar-text: #94a3b8;
+  
+  --primary: #8b5cf6;       /* Warna aksen ungu */
+}
+
+[data-theme="dark"] {
+  /* --- WARNA MODE GELAP (DARK) --- */
+  /* Pakai warna Slate/Navy gelap, jangan hitam pekat biar ga norak */
+  --bg-body: #0f172a;       
+  --bg-card: #1e293b;       
+  --text-main: #f8fafc;     /* Teks berubah jadi putih */
+  --text-muted: #94a3b8;    
+  --border-color: #334155;  
+  
+  --sidebar-bg: #020617;    /* Sidebar lebih gelap */
+  --sidebar-text: #cbd5e1;
+  
+  --primary: #a78bfa;       /* Ungu lebih terang agar kontras */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transisi halus saat ganti tema */
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  overflow-x: hidden;
+}

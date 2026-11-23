@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =========================================
+   1. PRELOADER (LOADING SCREEN)
+   ========================================= */
+.preloader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #f8fafc; /* Warna latar sangat lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.6s ease-out, visibility 0.6s ease-out;
+}
+
+/* Class untuk menghilangkan preloader dengan animasi pudar */
+.preloader-wrapper.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.preloader-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.spinning-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    /* Animasi berputar konstan */
+    animation: putarHalus 2s linear infinite;
+    /* Bayangan lembut di logo */
+    filter: drop-shadow(0 10px 15px rgba(59, 130, 246, 0.3));
+}
+
+.loading-text {
+    font-family: 'Poppins', sans-serif;
+    color: #64748b;
+    font-size: 14px;
+    letter-spacing: 2px;
+    animation: kedip 1.5s ease-in-out infinite alternate;
+}
+
+/* =========================================
+   2. HALAMAN LOGIN UTAMA
+   ========================================= */
+.login-page {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); /* Gradient pastel */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ornamen bentuk bulat di background */
+.bg-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 1;
+}
+.shape-1 {
+    width: 400px;
+    height: 400px;
+    background: rgba(167, 139, 250, 0.4); /* Ungu pastel */
+    top: -100px;
+    left: -100px;
+    animation: melayang 8s ease-in-out infinite alternate;
+}
+.shape-2 {
+    width: 300px;
+    height: 300px;
+    background: rgba(96, 165, 250, 0.4); /* Biru pastel */
+    bottom: -50px;
+    right: -50px;
+    animation: melayang 10s ease-in-out infinite alternate-reverse;
+}
+
+/* Kartu Login */
+.login-card {
+    background: rgba(255, 255, 255, 0.85); /* Efek Kaca */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05), 
+                0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: 100%;
+    max-width: 420px;
+    z-index: 10;
+    animation: naikMasuk 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.small-logo {
+    width: 60px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+.login-header h2 {
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #64748b;
+    font-size: 13px;
+}
+
+/* Form & Input */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    margin-left: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: #f8fafc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #1e293b;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #8b5cf6; /* Fokus ke warna ungu pastel */
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.15);
+}
+
+.input-group input::placeholder {
+    color: #cbd5e1;
+}
+
+/* Tombol Login */
+.btn-login {
+    margin-top: 10px;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); /* Gradient tombol */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(139, 92, 246, 0.4);
+}
+
+.btn-login:active {
+    transform: translateY(0);
+}
+
+/* Pesan Error */
+.error-alert {
+    background: #fee2e2;
+    color: #ef4444;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #fecaca;
+    animation: getar 0.4s ease-in-out;
+}
+
+/* =========================================
+   3. KUMPULAN ANIMASI (KEYFRAMES)
+   ========================================= */
+@keyframes putarHalus {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.1); } /* Sedikit membesar di tengah */
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes kedip {
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+@keyframes naikMasuk {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes melayang {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(30px, 50px); }
+}
+
+@keyframes getar {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}

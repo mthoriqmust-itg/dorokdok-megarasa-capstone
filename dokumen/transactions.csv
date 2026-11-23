@@ -1,0 +1,7 @@
+id,user_id,category_id,date,type,amount,note
+1,2,1,2026-11-01,pemasukan,150000,Penjualan 10 bungkus dorokdok
+2,2,6,2026-11-01,pengeluaran,50000,Beli minyak goreng 5 liter
+3,1,8,2026-11-02,pengeluaran,300000,Bayar gaji Budi mingguan
+4,3,2,2026-11-02,pemasukan,75000,Penjualan bumbu tabur
+5,2,7,2026-11-03,pengeluaran,25000,Beli plastik kemasan
+6,1,1,2026-11-04,pemasukan,450000,Penjualan grosir ke toko langganan

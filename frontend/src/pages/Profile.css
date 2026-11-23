@@ -1,0 +1,19 @@
+.profile-page { max-width: 600px; margin: 0 auto; }
+.profile-page h1 { color: var(--text-main); margin-bottom: 20px; }
+.profile-card {
+    background: var(--bg-card); border: 1px solid var(--border-color);
+    border-radius: 20px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+.profile-avatar-section {
+    display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;
+}
+.profile-avatar {
+    width: 120px; height: 120px; border-radius: 50%; object-fit: cover;
+    border: 4px solid var(--primary); margin-bottom: 15px;
+}
+.btn-upload {
+    background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color);
+    padding: 8px 16px; border-radius: 10px; cursor: pointer; font-size: 13px; font-weight: 600;
+}
+.profile-form { display: flex; flex-direction: column; gap: 20px; }
+.profile-form .form-group label { display: flex; align-items: center; gap: 8px; }

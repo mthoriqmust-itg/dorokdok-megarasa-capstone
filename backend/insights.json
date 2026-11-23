@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "dibuat_pada": "2026-11-23 10:40:22",
+    "acuan_tanggal": "2026-11-23",
+    "data_terakhir": "2026-11-23",
+    "sumber": "transactions.csv",
+    "catatan_tanggal": "Tanggal acuan = hari ini (2026-11-23). 26 transaksi bertanggal masa depan dibuang saat preprocessing."
+  },
+  "laba_bersih": 33970000,
+  "margin_persen": 50.3,
+  "rata_rata_transaksi": 662401,
+  "top_channel": "reseller/toko oleh-oleh",
+  "top_payment": "Tunai",
+  "bulan_tersibuk": "November",
+  "hari_tersibuk": "Sabtu",
+  "top_expense_cat": "Gaji Karyawan",
+  "top_expense_amount": 12600000,
+  "top_user": "Budi Santoso",
+  "top_user_count": 44,
+  "total_transaksi_valid": 201,
+  "total_pemasukan": 67565000,
+  "total_pengeluaran": 33595000,
+  "data_mendalam": {
+    "bulan_ini": {
+      "pendapatan": 9130000,
+      "pengeluaran": 3305000,
+      "laba_bersih": 5825000
+    },
+    "tren_3_bulan_terakhir": [
+      {
+        "bulan": "2026-09",
+        "pendapatan": 3885000,
+        "pengeluaran": 3500000,
+        "laba": 385000
+      },
+      {
+        "bulan": "2026-10",
+        "pendapatan": 4675000,
+        "pengeluaran": 2775000,
+        "laba": 1900000
+      },
+      {
+        "bulan": "2026-11",
+        "pendapatan": 9130000,
+        "pengeluaran": 3305000,
+        "laba": 5825000
+      }
+    ],
+    "top_5_kategori_pemasukan": [
+      {
+        "kategori": "Pesanan Grosir",
+        "total": 48050000
+      },
+      {
+        "kategori": "Penjualan Dorokdok",
+        "total": 16425000
+      },
+      {
+        "kategori": "Modal Tambahan",
+        "total": 2000000
+      },
+      {
+        "kategori": "Penjualan Bumbu",
+        "total": 1090000
+      }
+    ],
+    "top_5_kategori_pengeluaran": [
+      {
+        "kategori": "Gaji Karyawan",
+        "total": 12600000
+      },
+      {
+        "kategori": "Bahan Baku",
+        "total": 12170000
+      },
+      {
+        "kategori": "Listrik dan Air",
+        "total": 4225000
+      },
+      {
+        "kategori": "Gas dan Bahan Bakar Produksi",
+        "total": 1585000
+      },
+      {
+        "kategori": "Kemasan",
+        "total": 1130000
+      }
+    ],
+    "rincian_semua_channel": [
+      {
+        "channel": "reseller/toko oleh-oleh",
+        "total": 48050000
+      },
+      {
+        "channel": "toko",
+        "total": 12305000
+      },
+      {
+        "channel": "WhatsApp",
+        "total": 3240000
+      },
+      {
+        "channel": "Tidak Diketahui",
+        "total": 2000000
+      },
+      {
+        "channel": "media sosial",
+        "total": 1970000
+      }
+    ],
+    "rincian_metode_bayar": [
+      {
+        "metode": "Tunai",
+        "total": 37555000
+      },
+      {
+        "metode": "QRIS",
+        "total": 30010000
+      }
+    ]
+  },
+  "tren_bulanan": [
+    {
+      "bulan": "2025-12",
+      "pendapatan": 520000,
+      "pengeluaran": 0,
+      "laba": 520000,
+      "margin_persen": 100.0,
+      "pertumbuhan_pendapatan_persen": null,
+      "parsial": true
+    },
+    {
+      "bulan": "2026-01",
+      "pendapatan": 4940000,
+      "pengeluaran": 3010000,
+      "laba": 1930000,
+      "margin_persen": 39.1,
+      "pertumbuhan_pendapatan_persen": 850.0,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-02",
+      "pendapatan": 5870000,
+      "pengeluaran": 2850000,
+      "laba": 3020000,
+      "margin_persen": 51.4,
+      "pertumbuhan_pendapatan_persen": 18.8,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-03",
+      "pendapatan": 20465000,
+      "pengeluaran": 3370000,
+      "laba": 17095000,
+      "margin_persen": 83.5,
+      "pertumbuhan_pendapatan_persen": 248.6,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-04",
+      "pendapatan": 5035000,
+      "pengeluaran": 3650000,
+      "laba": 1385000,
+      "margin_persen": 27.5,
+      "pertumbuhan_pendapatan_persen": -75.4,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-05",
+      "pendapatan": 4350000,
+      "pengeluaran": 2830000,
+      "laba": 1520000,
+      "margin_persen": 34.9,
+      "pertumbuhan_pendapatan_persen": -13.6,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-06",
+      "pendapatan": 3735000,
+      "pengeluaran": 3060000,
+      "laba": 675000,
+      "margin_persen": 18.1,
+      "pertumbuhan_pendapatan_persen": -14.1,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-07",
+      "pendapatan": 2695000,
+      "pengeluaran": 2570000,
+      "laba": 125000,
+      "margin_persen": 4.6,
+      "pertumbuhan_pendapatan_persen": -27.8,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-08",
+      "pendapatan": 2265000,
+      "pengeluaran": 2675000,
+      "laba": -410000,
+      "margin_persen": -18.1,
+      "pertumbuhan_pendapatan_persen": -16.0,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-09",
+      "pendapatan": 3885000,
+      "pengeluaran": 3500000,
+      "laba": 385000,
+      "margin_persen": 9.9,
+      "pertumbuhan_pendapatan_persen": 71.5,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-10",
+      "pendapatan": 4675000,
+      "pengeluaran": 2775000,
+      "laba": 1900000,
+      "margin_persen": 40.6,
+      "pertumbuhan_pendapatan_persen": 20.3,
+      "parsial": false
+    },
+    {
+      "bulan": "2026-11",
+      "pendapatan": 9130000,
+      "pengeluaran": 3305000,
+      "laba": 5825000,
+      "margin_persen": 63.8,
+      "pertumbuhan_pendapatan_persen": 95.3,
+      "parsial": true
+    }
+  ],
+  "perbandingan_bulan": {
+    "status": "sukses",
+    "mode": "bulan",
+    "periode_ini": {
+      "label": "November 2026 (tgl 1-23)",
+      "dari": "2026-11-01",
+      "sampai": "2026-11-23",
+      "pemasukan": 9130000,
+      "pengeluaran": 3305000,
+      "laba": 5825000,
+      "margin_persen": 63.8,
+      "jumlah_transaksi": 27
+    },
+    "periode_sebelumnya": {
+      "label": "Oktober 2026 (tgl 1-23, rentang sama)",
+      "dari": "2026-10-01",
+      "sampai": "2026-10-23",
+      "pemasukan": 2965000,
+      "pengeluaran": 2725000,
+      "laba": 240000,
+      "margin_persen": 8.1,
+      "jumlah_transaksi": 15
+    },
+    "perubahan_persen": {
+      "pemasukan": 207.9,
+      "pengeluaran": 21.3,
+      "laba": 2327.1
+    },
+    "penggerak_pemasukan": [
+      {
+        "kategori": "Pesanan Grosir",
+        "sekarang": 5300000,
+        "sebelumnya": 1455000,
+        "selisih": 3845000,
+        "perubahan_persen": 264.3
+      },
+      {
+        "kategori": "Modal Tambahan",
+        "sekarang": 2000000,
+        "sebelumnya": 0,
+        "selisih": 2000000,
+        "perubahan_persen": null
+      },
+      {
+        "kategori": "Penjualan Bumbu",
+        "sekarang": 165000,
+        "sebelumnya": 0,
+        "selisih": 165000,
+        "perubahan_persen": null
+      },
+      {
+        "kategori": "Penjualan Dorokdok",
+        "sekarang": 1665000,
+        "sebelumnya": 1510000,
+        "selisih": 155000,
+        "perubahan_persen": 10.3
+      }
+    ],
+    "penggerak_pengeluaran": [
+      {
+        "kategori": "Bahan Baku",
+        "sekarang": 1650000,
+        "sebelumnya": 730000,
+        "selisih": 920000,
+        "perubahan_persen": 126.0
+      },
+      {
+        "kategori": "Gaji Karyawan",
+        "sekarang": 600000,
+        "sebelumnya": 1200000,
+        "selisih": -600000,
+        "perubahan_persen": -50.0
+      },
+      {
+        "kategori": "Peralatan dan Perawatan",
+        "sekarang": 175000,
+        "sebelumnya": 0,
+        "selisih": 175000,
+        "perubahan_persen": null
+      },
+      {
+        "kategori": "Listrik dan Air",
+        "sekarang": 470000,
+        "sebelumnya": 375000,
+        "selisih": 95000,
+        "perubahan_persen": 25.3
+      },
+      {
+        "kategori": "Promosi dan Iklan",
+        "sekarang": 100000,
+        "sebelumnya": 130000,
+        "selisih": -30000,
+        "perubahan_persen": -23.1
+      }
+    ],
+    "penjelasan_laba": [
+      "Pesanan Grosir (pemasukan) menambah laba sebesar Rp 3.845.000",
+      "Modal Tambahan (pemasukan) menambah laba sebesar Rp 2.000.000",
+      "Bahan Baku (pengeluaran) menekan laba sebesar Rp 920.000"
+    ],
+    "catatan": null
+  },
+  "perbandingan_minggu": {
+    "status": "sukses",
+    "mode": "minggu",
+    "periode_ini": {
+      "label": "7 hari terakhir (17 Nov - 23 Nov)",
+      "dari": "2026-11-17",
+      "sampai": "2026-11-23",
+      "pemasukan": 3830000,
+      "pengeluaran": 875000,
+      "laba": 2955000,
+      "margin_persen": 77.2,
+      "jumlah_transaksi": 7
+    },
+    "periode_sebelumnya": {
+      "label": "7 hari sebelumnya (10 Nov - 16 Nov)",
+      "dari": "2026-11-10",
+      "sampai": "2026-11-16",
+      "pemasukan": 2625000,
+      "pengeluaran": 1190000,
+      "laba": 1435000,
+      "margin_persen": 54.7,
+      "jumlah_transaksi": 7
+    },
+    "perubahan_persen": {
+      "pemasukan": 45.9,
+      "pengeluaran": -26.5,
+      "laba": 105.9
+    },
+    "penggerak_pemasukan": [
+      {
+        "kategori": "Modal Tambahan",
+        "sekarang": 2000000,
+        "sebelumnya": 0,
+        "selisih": 2000000,
+        "perubahan_persen": null
+      },
+      {
+        "kategori": "Pesanan Grosir",
+        "sekarang": 1500000,
+        "sebelumnya": 2100000,
+        "selisih": -600000,
+        "perubahan_persen": -28.6
+      },
+      {
+        "kategori": "Penjualan Dorokdok",
+        "sekarang": 330000,
+        "sebelumnya": 435000,
+        "selisih": -105000,
+        "perubahan_persen": -24.1
+      },
+      {
+        "kategori": "Penjualan Bumbu",
+        "sekarang": 0,
+        "sebelumnya": 90000,
+        "selisih": -90000,
+        "perubahan_persen": -100.0
+      }
+    ],
+    "penggerak_pengeluaran": [
+      {
+        "kategori": "Gaji Karyawan",
+        "sekarang": 0,
+        "sebelumnya": 300000,
+        "selisih": -300000,
+        "perubahan_persen": -100.0
+      },
+      {
+        "kategori": "Bahan Baku",
+        "sekarang": 480000,
+        "sebelumnya": 750000,
+        "selisih": -270000,
+        "perubahan_persen": -36.0
+      },
+      {
+        "kategori": "Peralatan dan Perawatan",
+        "sekarang": 175000,
+        "sebelumnya": 0,
+        "selisih": 175000,
+        "perubahan_persen": null
+      },
+      {
+        "kategori": "Gas dan Bahan Bakar Produksi",
+        "sekarang": 0,
+        "sebelumnya": 140000,
+        "selisih": -140000,
+        "perubahan_persen": -100.0
+      },
+      {
+        "kategori": "Listrik dan Air",
+        "sekarang": 120000,
+        "sebelumnya": 0,
+        "selisih": 120000,
+        "perubahan_persen": null
+      }
+    ],
+    "penjelasan_laba": [
+      "Modal Tambahan (pemasukan) menambah laba sebesar Rp 2.000.000",
+      "Pesanan Grosir (pemasukan) menekan laba sebesar Rp 600.000",
+      "Gaji Karyawan (pengeluaran) menambah laba sebesar Rp 300.000"
+    ],
+    "catatan": null
+  },
+  "prediksi_14_hari": {
+    "status": "sukses",
+    "horizon_hari": 14,
+    "data_terakhir": "2026-11-23",
+    "hari_data_dipakai": 90,
+    "total_prediksi": {
+      "pemasukan": 5858605,
+      "pengeluaran": 1617400,
+      "laba": 4241204
+    },
+    "rata_rata_harian": {
+      "pemasukan": 418471,
+      "pengeluaran": 115528
+    },
+    "rentang_80persen_pemasukan_harian": [
+      0,
+      956751
+    ],
+    "hari_terbaik": "Sabtu",
+    "hari_terlemah": "Rabu",
+    "proyeksi_akhir_bulan": {
+      "bulan": "November 2026",
+      "sisa_hari": 7,
+      "pemasukan": 11949039,
+      "pengeluaran": 4103028,
+      "laba": 7846011
+    },
+    "akurasi_backtest": {
+      "error_total_14_hari_persen": 49.8,
+      "wape_harian_persen": 106.5
+    },
+    "harian": [
+      {
+        "tanggal": "2026-11-24",
+        "hari": "Selasa",
+        "pemasukan": 120089,
+        "pengeluaran": 28979,
+        "laba": 91110
+      },
+      {
+        "tanggal": "2026-11-25",
+        "hari": "Rabu",
+        "pemasukan": 76970,
+        "pengeluaran": 278153,
+        "laba": -201182
+      },
+      {
+        "tanggal": "2026-11-26",
+        "hari": "Kamis",
+        "pemasukan": 570160,
+        "pengeluaran": 22089,
+        "laba": 548071
+      },
+      {
+        "tanggal": "2026-11-27",
+        "hari": "Jumat",
+        "pemasukan": 715054,
+        "pengeluaran": 159937,
+        "laba": 555117
+      },
+      {
+        "tanggal": "2026-11-28",
+        "hari": "Sabtu",
+        "pemasukan": 751693,
+        "pengeluaran": 82301,
+        "laba": 669392
+      },
+      {
+        "tanggal": "2026-11-29",
+        "hari": "Minggu",
+        "pemasukan": 279931,
+        "pengeluaran": 148950,
+        "laba": 130980
+      },
+      {
+        "tanggal": "2026-11-30",
+        "hari": "Senin",
+        "pemasukan": 305138,
+        "pengeluaran": 77617,
+        "laba": 227521
+      },
+      {
+        "tanggal": "2026-12-01",
+        "hari": "Selasa",
+        "pemasukan": 129853,
+        "pengeluaran": 29763,
+        "laba": 100090
+      },
+      {
+        "tanggal": "2026-12-02",
+        "hari": "Rabu",
+        "pemasukan": 83156,
+        "pengeluaran": 285647,
+        "laba": -202491
+      },
+      {
+        "tanggal": "2026-12-03",
+        "hari": "Kamis",
+        "pemasukan": 615462,
+        "pengeluaran": 22682,
+        "laba": 592779
+      },
+      {
+        "tanggal": "2026-12-04",
+        "hari": "Jumat",
+        "pemasukan": 771231,
+        "pengeluaran": 164214,
+        "laba": 607017
+      },
+      {
+        "tanggal": "2026-12-05",
+        "hari": "Sabtu",
+        "pemasukan": 810093,
+        "pengeluaran": 84493,
+        "laba": 725599
+      },
+      {
+        "tanggal": "2026-12-06",
+        "hari": "Minggu",
+        "pemasukan": 301440,
+        "pengeluaran": 152902,
+        "laba": 148537
+      },
+      {
+        "tanggal": "2026-12-07",
+        "hari": "Senin",
+        "pemasukan": 328329,
+        "pengeluaran": 79668,
+        "laba": 248660
+      }
+    ],
+    "catatan": "Model sederhana (tren linear + pola hari dalam minggu). Gunakan sebagai gambaran, bukan kepastian."
+  },
+  "skor_kesehatan": {
+    "status": "sukses",
+    "skor": 71.3,
+    "grade": "B",
+    "komponen": [
+      {
+        "aspek": "Profitabilitas",
+        "skor": 30.0,
+        "maks": 30,
+        "keterangan": "Margin 90 hari terakhir 46.6% (target >= 25%)"
+      },
+      {
+        "aspek": "Pertumbuhan",
+        "skor": 20.0,
+        "maks": 20,
+        "keterangan": "Pemasukan 30 hari terakhir +114.2% vs 30 hari sebelumnya"
+      },
+      {
+        "aspek": "Stabilitas",
+        "skor": 1.4,
+        "maks": 20,
+        "keterangan": "Fluktuasi pemasukan mingguan (CV) 0.93 (makin kecil makin stabil)"
+      },
+      {
+        "aspek": "Diversifikasi",
+        "skor": 7.8,
+        "maks": 15,
+        "keterangan": "Kategori terbesar = 59% dari pemasukan (ideal < 40%)"
+      },
+      {
+        "aspek": "Aktivitas penjualan",
+        "skor": 12.1,
+        "maks": 15,
+        "keterangan": "Ada penjualan di 57% hari dalam 30 hari terakhir (target >= 70%)"
+      }
+    ],
+    "aspek_terlemah": "Stabilitas",
+    "aspek_terkuat": "Profitabilitas"
+  },
+  "break_even": {
+    "status": "sukses",
+    "bulan_dipakai": 10,
+    "biaya_tetap_per_bulan": 1575500,
+    "biaya_variabel_rasio_persen": 25.1,
+    "margin_kontribusi_persen": 74.9,
+    "omzet_impas_per_bulan": 2103390,
+    "omzet_impas_per_hari": 70113,
+    "rata_rata_omzet_per_bulan": 5791500,
+    "rasio_omzet_vs_impas": 2.75,
+    "status_impas": "di atas titik impas",
+    "kategori_biaya_tetap": [
+      "Gaji Karyawan",
+      "Listrik dan Air"
+    ],
+    "catatan": "Biaya tetap diasumsikan dari kategori gaji/listrik/air/sewa dll. Bulan parsial tidak dipakai."
+  },
+  "anomali": {
+    "status": "sukses",
+    "jumlah_outlier_total": 12,
+    "transaksi_anomali": [
+      {
+        "tanggal": "2026-11-23",
+        "tipe": "pengeluaran",
+        "kategori": "Listrik dan Air",
+        "nominal": 120000,
+        "user": "Fajar Gustiana",
+        "skor_anomali": 9.64,
+        "alasan": "Rp 120.000 jauh di bawah kewajaran Listrik dan Air (median Rp 370.000)"
+      },
+      {
+        "tanggal": "2026-03-11",
+        "tipe": "pemasukan",
+        "kategori": "Pesanan Grosir",
+        "nominal": 3870000,
+        "user": "Fajar Gustiana",
+        "skor_anomali": 3.8,
+        "alasan": "Rp 3.870.000 jauh di atas kewajaran Pesanan Grosir (median Rp 1.475.000)"
+      },
+      {
+        "tanggal": "2026-03-11",
+        "tipe": "pengeluaran",
+        "kategori": "Transportasi",
+        "nominal": 115000,
+        "user": "Budi Santoso",
+        "skor_anomali": 3.37,
+        "alasan": "Rp 115.000 jauh di atas kewajaran Transportasi (median Rp 65.000)"
+      },
+      {
+        "tanggal": "2026-03-19",
+        "tipe": "pemasukan",
+        "kategori": "Penjualan Dorokdok",
+        "nominal": 650000,
+        "user": "Budi Santoso",
+        "skor_anomali": 3.29,
+        "alasan": "Rp 650.000 jauh di atas kewajaran Penjualan Dorokdok (median Rp 260.000)"
+      },
+      {
+        "tanggal": "2026-07-11",
+        "tipe": "pengeluaran",
+        "kategori": "Transportasi",
+        "nominal": 20000,
+        "user": "Budi Santoso",
+        "skor_anomali": 3.04,
+        "alasan": "Rp 20.000 jauh di bawah kewajaran Transportasi (median Rp 65.000)"
+      }
+    ],
+    "hari_pengeluaran_tinggi": [],
+    "catatan": "Outlier belum tentu salah; pesanan grosir besar bisa valid. Perlu dicek manual."
+  },
+  "konsentrasi": {
+    "kategori_terbesar": {
+      "nama": "Pesanan Grosir",
+      "persen": 71.1
+    },
+    "hhi_kategori": 0.566,
+    "channel_terbesar": {
+      "nama": "reseller/toko oleh-oleh",
+      "persen": 73.3
+    }
+  },
+  "pola_waktu": {
+    "rata_pemasukan_per_hari": {
+      "Senin": 163404,
+      "Selasa": 121086,
+      "Rabu": 330851,
+      "Kamis": 248404,
+      "Jumat": 231276,
+      "Sabtu": 252765,
+      "Minggu": 92340
+    },
+    "hari_terbaik": "Rabu",
+    "hari_terlemah": "Minggu",
+    "porsi_pemasukan_per_dekade_bulan_persen": {
+      "tgl 1-10": 22.9,
+      "tgl 11-20": 45.0,
+      "tgl 21-31": 32.2
+    },
+    "porsi_akhir_pekan_persen": 24.0
+  },
+  "peringatan_dini": [
+    "Pengeluaran bulan ini naik 21.3% dibanding rentang sama bulan lalu.",
+    "71.1% pemasukan bergantung pada satu kategori (Pesanan Grosir), risiko konsentrasi tinggi.",
+    "73.3% penjualan datang dari satu channel (reseller/toko oleh-oleh)."
+  ],
+  "karyawan": [
+    {
+      "nama": "Budi Santoso",
+      "role": "karyawan",
+      "jumlah_transaksi": 74,
+      "jumlah_pemasukan": 44,
+      "nilai_pemasukan": 14660000,
+      "nilai_pengeluaran": 2890000,
+      "rata_rata_transaksi": 237162,
+      "hari_aktif": 68
+    },
+    {
+      "nama": "Siti Indriani",
+      "role": "karyawan",
+      "jumlah_transaksi": 65,
+      "jumlah_pemasukan": 31,
+      "nilai_pemasukan": 6455000,
+      "nilai_pengeluaran": 13130000,
+      "rata_rata_transaksi": 301307,
+      "hari_aktif": 61
+    },
+    {
+      "nama": "Fajar Gustiana",
+      "role": "admin",
+      "jumlah_transaksi": 62,
+      "jumlah_pemasukan": 27,
+      "nilai_pemasukan": 46450000,
+      "nilai_pengeluaran": 17575000,
+      "rata_rata_transaksi": 1032661,
+      "hari_aktif": 59
+    }
+  ],
+  "preprocessing": {
+    "ringkasan": {
+      "baris_awal": 227,
+      "baris_valid": 201,
+      "baris_dibuang": 26,
+      "duplikat": 0,
+      "outlier": 12,
+      "missing_sebelum": {
+        "sales_channel": 113,
+        "payment_method": 0,
+        "category_name": 0,
+        "user_name": 0,
+        "role": 0
+      },
+      "missing_sesudah": {
+        "sales_channel": 0,
+        "payment_method": 0,
+        "category_name": 0,
+        "user_name": 0,
+        "role": 0
+      },
+      "rentang_tanggal": [
+        "2025-12-31",
+        "2026-11-23"
+      ],
+      "dibuang_masa_depan": 26,
+      "tanggal_acuan": "2026-11-23",
+      "skor_kualitas": 88.1
+    },
+    "langkah": [
+      {
+        "tahap": 1,
+        "nama": "Validasi skema",
+        "detail": "Kolom wajib lengkap ['date', 'type', 'amount']. Kolom opsional ditambahkan: tidak ada."
+      },
+      {
+        "tahap": 2,
+        "nama": "Normalisasi teks",
+        "detail": "Spasi dirapikan; token kosong (\"NULL\", \"-\", \"nan\", dll) diubah menjadi missing value.",
+        "missing_sebelum": {
+          "sales_channel": 113,
+          "payment_method": 0,
+          "category_name": 0,
+          "user_name": 0,
+          "role": 0
+        }
+      },
+      {
+        "tahap": 3,
+        "nama": "Standarisasi kategori",
+        "detail": "Tipe, metode bayar, channel, kategori & nama user diseragamkan (huruf besar/kecil, sinonim)."
+      },
+      {
+        "tahap": 4,
+        "nama": "Konversi tipe data",
+        "detail": "Kolom date -> datetime, amount -> numerik (format Rp/titik/koma dibersihkan)."
+      },
+      {
+        "tahap": 5,
+        "nama": "Pembuangan data tidak valid",
+        "detail": "Dibuang 26 baris (tanggal rusak: 0, tanggal di masa depan setelah 2026-11-23: 26, nominal <= 0/kosong: 0, tipe asing: 0).",
+        "dibuang": 26,
+        "dibuang_masa_depan": 26
+      },
+      {
+        "tahap": 6,
+        "nama": "Pembuangan duplikat",
+        "detail": "Ditemukan & dibuang 0 baris duplikat persis.",
+        "dibuang": 0
+      },
+      {
+        "tahap": 7,
+        "nama": "Penanganan missing value",
+        "detail": "Channel kosong pada pengeluaran = \"Non-Penjualan\" (bukan data hilang, channel hanya relevan utk penjualan); channel kosong pada pemasukan = \"Tidak Diketahui\"; metode bayar = modus; lainnya = label default.",
+        "diimputasi": {
+          "sales_channel": {
+            "pemasukan->Tidak Diketahui": 1,
+            "pengeluaran->Non-Penjualan": 99
+          },
+          "payment_method": 0,
+          "category_name": 0,
+          "user_name": 0,
+          "role": 0
+        }
+      },
+      {
+        "tahap": 8,
+        "nama": "Deteksi outlier",
+        "detail": "12 transaksi ditandai outlier (IQR 1.5x per tipe/kategori). Hanya ditandai (is_outlier), tidak dibuang, karena pesanan besar bisa saja valid.",
+        "jumlah": 12
+      },
+      {
+        "tahap": 9,
+        "nama": "Feature engineering",
+        "detail": "Ditambahkan: tahun, bulan, kuartal, minggu_mulai, nama_hari, is_weekend, tgl_bulan, signed_amount."
+      },
+      {
+        "tahap": 10,
+        "nama": "Normalisasi nominal",
+        "detail": "Ditambahkan amount_log (log1p), amount_zscore & amount_minmax (per tipe) untuk model statistik/ML."
+      },
+      {
+        "tahap": 11,
+        "nama": "Skor kualitas data",
+        "detail": "Skor kualitas = 88.1/100 (penalti: data dibuang, duplikat, dan missing value yang bukan struktural).",
+        "skor": 88.1
+      }
+    ]
+  },
+  "rag_text": "=== INFO DATA ===\n- Sumber: transactions.csv | Data terakhir: 2026-11-23 | Tanggal acuan = hari ini (2026-11-23). 26 transaksi bertanggal masa depan dibuang saat preprocessing.\n\n=== RINGKASAN ALL-TIME ===\n- Total Pemasukan: Rp 67.565.000 | Pengeluaran: Rp 33.595.000 | Laba Bersih: Rp 33.970.000\n- Margin: 50.3% | Rata-rata transaksi pemasukan: Rp 662.401 | Total transaksi valid: 201\n\n=== KINERJA BULAN INI (November 2026) ===\n- Pendapatan: Rp 9.130.000 | Pengeluaran: Rp 3.305.000 | Laba: Rp 5.825.000\n\n=== BULAN INI vs BULAN LALU (rentang tanggal sama) ===\n- November 2026 (tgl 1-23): pemasukan Rp 9.130.000, pengeluaran Rp 3.305.000, laba Rp 5.825.000\n- Oktober 2026 (tgl 1-23, rentang sama): pemasukan Rp 2.965.000, pengeluaran Rp 2.725.000, laba Rp 240.000\n- Perubahan: {'pemasukan': 207.9, 'pengeluaran': 21.3, 'laba': 2327.1}\n- Penyebab utama: Pesanan Grosir (pemasukan) menambah laba sebesar Rp 3.845.000; Modal Tambahan (pemasukan) menambah laba sebesar Rp 2.000.000; Bahan Baku (pengeluaran) menekan laba sebesar Rp 920.000\n\n=== TREN BULANAN (parsial = bulan belum/tidak penuh, hati-hati menyimpulkan) ===\n- 2026-06: pendapatan Rp 3.735.000, pengeluaran Rp 3.060.000, laba Rp 675.000, margin 18.1%\n- 2026-07: pendapatan Rp 2.695.000, pengeluaran Rp 2.570.000, laba Rp 125.000, margin 4.6%\n- 2026-08: pendapatan Rp 2.265.000, pengeluaran Rp 2.675.000, laba Rp -410.000, margin -18.1%\n- 2026-09: pendapatan Rp 3.885.000, pengeluaran Rp 3.500.000, laba Rp 385.000, margin 9.9%\n- 2026-10: pendapatan Rp 4.675.000, pengeluaran Rp 2.775.000, laba Rp 1.900.000, margin 40.6%\n- 2026-11 (parsial): pendapatan Rp 9.130.000, pengeluaran Rp 3.305.000, laba Rp 5.825.000, margin 63.8%\n\n=== TOP 5 PRODUK/PEMASUKAN ===\n- Pesanan Grosir: Rp 48.050.000\n- Penjualan Dorokdok: Rp 16.425.000\n- Modal Tambahan: Rp 2.000.000\n- Penjualan Bumbu: Rp 1.090.000\n\n=== TOP 5 PENGELUARAN ===\n- Gaji Karyawan: Rp 12.600.000\n- Bahan Baku: Rp 12.170.000\n- Listrik dan Air: Rp 4.225.000\n- Gas dan Bahan Bakar Produksi: Rp 1.585.000\n- Kemasan: Rp 1.130.000\n\n=== CHANNEL & PEMBAYARAN (pemasukan) ===\n- Channel: reseller/toko oleh-oleh (Rp 48.050.000), toko (Rp 12.305.000), WhatsApp (Rp 3.240.000), Tidak Diketahui (Rp 2.000.000), media sosial (Rp 1.970.000)\n- Pembayaran: Tunai (Rp 37.555.000), QRIS (Rp 30.010.000)\n\n=== SKOR KESEHATAN BISNIS: 71.3/100 (grade B) ===\n- Terkuat: Profitabilitas | Terlemah: Stabilitas\n- Profitabilitas: 30.0/30 (Margin 90 hari terakhir 46.6% (target >= 25%))\n- Pertumbuhan: 20.0/20 (Pemasukan 30 hari terakhir +114.2% vs 30 hari sebelumnya)\n- Stabilitas: 1.4/20 (Fluktuasi pemasukan mingguan (CV) 0.93 (makin kecil makin stabil))\n- Diversifikasi: 7.8/15 (Kategori terbesar = 59% dari pemasukan (ideal < 40%))\n- Aktivitas penjualan: 12.1/15 (Ada penjualan di 57% hari dalam 30 hari terakhir (target >= 70%))\n\n=== BREAK-EVEN ===\n- Omzet impas: Rp 2.103.390/bulan (~Rp 70.113/hari). Rata-rata omzet Rp 5.791.500/bulan = di atas titik impas.\n\n=== PREDIKSI 14 HARI KE DEPAN ===\n- Total prediksi pemasukan Rp 5.858.605, pengeluaran Rp 1.617.400, laba Rp 4.241.204\n- Hari terkuat: Sabtu | Terlemah: Rabu\n- Proyeksi akhir November 2026: pemasukan Rp 11.949.039, laba Rp 7.846.011\n\n=== PERINGATAN DINI ===\n- Pengeluaran bulan ini naik 21.3% dibanding rentang sama bulan lalu.\n- 71.1% pemasukan bergantung pada satu kategori (Pesanan Grosir), risiko konsentrasi tinggi.\n- 73.3% penjualan datang dari satu channel (reseller/toko oleh-oleh).\n\n=== ANOMALI TERBESAR ===\n- 2026-11-23 Rp 120.000 jauh di bawah kewajaran Listrik dan Air (median Rp 370.000)\n- 2026-03-11 Rp 3.870.000 jauh di atas kewajaran Pesanan Grosir (median Rp 1.475.000)\n- 2026-03-11 Rp 115.000 jauh di atas kewajaran Transportasi (median Rp 65.000)\n\n=== POLA WAKTU ===\n- Hari terbaik: Rabu, terlemah: Minggu, tersibuk (jumlah transaksi): Sabtu\n- Porsi pemasukan per dekade bulan: {'tgl 1-10': 22.9, 'tgl 11-20': 45.0, 'tgl 21-31': 32.2}\n\n=== SDM ===\n- Karyawan terajin (input pemasukan): Budi Santoso (44 input)\n\n=== KUALITAS DATA (hasil preprocessing) ===\n- 227 baris mentah -> 201 valid; duplikat 0; outlier ditandai 12; skor kualitas 88.1/100"
+}

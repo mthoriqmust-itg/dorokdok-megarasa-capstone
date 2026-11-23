@@ -1,0 +1,199 @@
+.layout-container {
+    display: flex;
+    height: 100vh;
+    background-color: var(--bg-body);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+.sidebar {
+    position: relative;
+    width: 252px;
+    flex-shrink: 0;
+    background: var(--sidebar-bg, #0f172a);
+    color: #fff;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform 0.3s ease;
+    z-index: 100;
+}
+
+.sidebar-bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.sb-orb { position: absolute; border-radius: 50%; filter: blur(50px); will-change: transform; }
+.sb-orb-1 { width: 240px; height: 240px; background: #7c3aed; opacity: 0.38; top: -80px; left: -90px; animation: sbDrift1 18s ease-in-out infinite alternate; }
+.sb-orb-2 { width: 220px; height: 220px; background: #2563eb; opacity: 0.26; top: 42%; right: -120px; animation: sbDrift2 24s ease-in-out infinite alternate; }
+.sb-orb-3 { width: 260px; height: 260px; background: #c026d3; opacity: 0.22; bottom: -120px; left: -70px; animation: sbDrift3 21s ease-in-out infinite alternate; }
+.sb-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.10) 1px, transparent 1px);
+    background-size: 22px 22px;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+    mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+    opacity: 0.5;
+}
+@keyframes sbDrift1 { to { transform: translate3d(60px, 90px, 0) scale(1.15); } }
+@keyframes sbDrift2 { to { transform: translate3d(-70px, -80px, 0) scale(0.9); } }
+@keyframes sbDrift3 { to { transform: translate3d(80px, -60px, 0) scale(1.1); } }
+
+.sidebar-inner { height: 100%; display: flex; flex-direction: column; }
+
+/* --- brand --- */
+.brand {
+    display: flex; align-items: center; gap: 12px;
+    padding: 20px 20px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.brand-img {
+    width: 50px; height: 50px; border-radius: 10px; object-fit: contain;
+}
+.brand-text h2 { margin: 0; padding: 0; border: 0; font-size: 18px; font-weight: 700; line-height: 1.1; color: #fff; }
+.brand-text h2 span { color: #a78bfa; }
+.brand-text small { display: block; margin-top: 3px; font-size: 11px; color: rgba(255, 255, 255, 0.5); }
+
+.mobile-close-btn { display: none; background: transparent; border: none; color: #fff; cursor: pointer; margin-left: auto; }
+
+/* --- navigasi --- */
+.sidebar nav { padding: 16px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; overflow-y: auto; }
+.sidebar nav a {
+    position: relative;
+    display: flex; align-items: center; gap: 12px;
+    padding: 11px 14px; border-radius: 12px;
+    color: var(--sidebar-text, rgba(255, 255, 255, 0.65));
+    text-decoration: none; font-size: 14px; font-weight: 500;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+.sidebar nav a svg { flex-shrink: 0; opacity: 0.85; transition: color 0.25s ease, opacity 0.25s ease; }
+.sidebar nav a:hover { background: rgba(255, 255, 255, 0.07); color: #fff; }
+.sidebar nav a.active {
+    background: linear-gradient(90deg, rgba(139, 92, 246, 0.30), rgba(139, 92, 246, 0.08));
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgba(167, 139, 250, 0.18);
+}
+.sidebar nav a.active svg { color: #c4b5fd; opacity: 1; }
+.sidebar nav a.active::before {
+    content: ''; position: absolute; left: -12px; top: 9px; bottom: 9px; width: 3px;
+    border-radius: 0 4px 4px 0; background: #a78bfa; box-shadow: 0 0 12px #a78bfa;
+}
+
+/* --- logout --- */
+.btn-logout {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    margin: 12px 16px 18px; padding: 12px;
+    background: rgba(239, 68, 68, 0.12); color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 12px;
+    font-family: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+.btn-logout:hover { background: #ef4444; color: #fff; border-color: #ef4444; }
+
+/* =========================================
+   MAIN AREA & TOPBAR
+   ========================================= */
+.main-wrapper { flex: 1; display: flex; flex-direction: column; overflow: hidden; min-width: 0; }
+
+.topbar {
+    background: var(--bg-card);
+    background: color-mix(in srgb, var(--bg-card) 88%, transparent);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    padding: 10px 28px;
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    position: relative; z-index: 5;
+}
+.topbar-left { display: flex; align-items: center; gap: 14px; }
+.mobile-menu-btn { display: none; background: transparent; border: none; color: var(--text-main); cursor: pointer; padding: 4px; }
+
+.topbar::after {
+    content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.35; pointer-events: none;
+}
+.topbar-title h3 { margin: 0; font-size: 17px; font-weight: 700; color: var(--text-main); line-height: 1.2; }
+.topbar-title p { margin: 2px 0 0; font-size: 12px; color: var(--text-muted); }
+
+.user-profile { display: flex; align-items: center; gap: 14px; }
+.topbar-divider { width: 1px; height: 28px; background: var(--border-color); }
+
+.theme-toggle {
+    width: 38px; height: 38px; border-radius: 12px;
+    display: grid; place-items: center; cursor: pointer;
+    background: var(--bg-body); color: var(--text-main);
+    border: 1px solid var(--border-color);
+    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+.theme-toggle:hover { color: var(--primary); border-color: var(--primary); }
+
+.profile-chip {
+    display: flex; align-items: center; gap: 12px;
+    padding: 4px 4px 4px 10px; border-radius: 40px;
+    text-decoration: none; transition: background 0.25s ease;
+}
+.profile-chip:hover { background: var(--bg-body); }
+.profile-info { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; }
+.profile-name { font-size: 13px; font-weight: 600; color: var(--text-main); }
+.profile-info .badge {
+    background: rgba(139, 92, 246, 0.12); color: var(--primary);
+    padding: 2px 9px; border-radius: 20px; font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.4px; margin-top: 3px;
+}
+
+.avatar {
+    position: relative; width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+    display: grid; place-items: center;
+    background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+    box-shadow: 0 0 0 2px var(--bg-card), 0 0 0 4px rgba(139, 92, 246, 0.45);
+    color: #fff; font-size: 14px; font-weight: 700;
+}
+.avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
+.avatar-dot {
+    position: absolute; right: 0; bottom: 0; width: 11px; height: 11px; border-radius: 50%;
+    background: #10b981; border: 2px solid var(--bg-card);
+}
+
+.content-area { padding: 20px 28px 28px; overflow-y: auto; flex: 1; animation: fadeIn 0.5s ease-out; }
+
+.sidebar-overlay { display: none; }
+
+/* =========================================
+   RESPONSIVE (MOBILE)
+   ========================================= */
+@media (max-width: 900px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        transform: translateX(-100%);
+        box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+    }
+    .sidebar.open { transform: translateX(0); }
+    
+    .mobile-close-btn { display: block; }
+    .mobile-menu-btn { display: block; }
+    
+    .sidebar-overlay {
+        display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+        z-index: 99; backdrop-filter: blur(4px); animation: fadeIn 0.3s ease;
+    }
+
+    .topbar { padding: 10px 16px; }
+    .content-area { padding: 16px; }
+    
+    /* Perkecil font mobile */
+    .topbar-title h3 { font-size: 15px; }
+    .topbar-title p { font-size: 11px; }
+    .profile-name { font-size: 12px; }
+    .avatar { width: 34px; height: 34px; font-size: 12px; }
+    .theme-toggle { width: 32px; height: 32px; }
+}
+
+@media (max-width: 560px) {
+    .profile-info, .topbar-divider, .topbar-title p { display: none; }
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
