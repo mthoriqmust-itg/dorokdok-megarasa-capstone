@@ -11,7 +11,7 @@ Proyek ini menggunakan arsitektur **Microservices**, jadi kita harus menyalakan 
 ### 📌 Persiapan Awal
 1. Buka folder proyek di VS Code.
 2. Buka **XAMPP**, nyalakan **Apache** dan **MySQL**.
-3. Buka `http://localhost/phpmyadmin`, buat database baru bernama `dorokdok_db` (atau sesuai `.env`), lalu **Import** file `.sql` yang ada di folder proyek.
+3. ekstrak .zip yang berisi database .sql, lalu  Buka `http://localhost/phpmyadmin`, **Import** file `.sql` yang  diekstrak tadi.
 
 ---
 
